@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DarkerColorsViewController" customModule="A11y_Box" customModuleProvider="target">
+            <connections>
+                <outlet property="darkerColorLabel" destination="Ry6-5F-SdR" id="G2o-RU-BvL"/>
+                <outlet property="increaseContrastStatusLabel" destination="UFv-et-4ip" id="9pV-ID-Uuz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Increase Contrast allows your customers to tell you they'd apprecaite more contrast between text and the background." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-B6-q9h" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="60" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFv-et-4ip" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="89" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This text color is switches automatically using an asset catalog color." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWc-z5-dmH" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="105" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="ContrastVariants"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This text color is changed in code." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry6-5F-SdR" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="134" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can also change images using the same methods." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUD-od-d2L" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="171" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JnH-B6-q9h" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="9xe-Wb-hGk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TUD-od-d2L" secondAttribute="trailing" constant="16" id="AxF-5y-5Qp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UFv-et-4ip" secondAttribute="trailing" constant="16" id="COW-ls-yqq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JnH-B6-q9h" secondAttribute="trailing" constant="16" id="CQr-nG-GOZ"/>
+                <constraint firstItem="Ry6-5F-SdR" firstAttribute="top" secondItem="MWc-z5-dmH" secondAttribute="bottom" constant="8" id="Rxg-aL-6RD"/>
+                <constraint firstItem="UFv-et-4ip" firstAttribute="top" secondItem="JnH-B6-q9h" secondAttribute="bottom" constant="8" id="SPB-01-ZGY"/>
+                <constraint firstItem="MWc-z5-dmH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="V09-Cz-saC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MWc-z5-dmH" secondAttribute="trailing" constant="16" id="auU-cf-REV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ry6-5F-SdR" secondAttribute="trailing" constant="16" id="fdU-xu-B8a"/>
+                <constraint firstItem="JnH-B6-q9h" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mG1-Di-M9V"/>
+                <constraint firstItem="Ry6-5F-SdR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="n5F-xU-FLr"/>
+                <constraint firstItem="UFv-et-4ip" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="nn5-02-BZg"/>
+                <constraint firstItem="MWc-z5-dmH" firstAttribute="top" secondItem="UFv-et-4ip" secondAttribute="bottom" constant="16" id="oeE-hw-ONh"/>
+                <constraint firstItem="TUD-od-d2L" firstAttribute="top" secondItem="Ry6-5F-SdR" secondAttribute="bottom" constant="16" id="wF8-3f-bdB"/>
+                <constraint firstItem="TUD-od-d2L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="wfX-zV-GgC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="78"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="ContrastVariants">
+            <color red="0.70196078431372544" green="0.45098039215686275" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
