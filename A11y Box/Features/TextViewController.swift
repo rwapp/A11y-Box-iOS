@@ -15,9 +15,7 @@ class TextViewController: UIViewController {
 
     // Listing 8-13
     var boldTextStatus: Bool {
-        get{
-            return UIAccessibility.isBoldTextEnabled
-        }
+        return UIAccessibility.isBoldTextEnabled
     }
 
     override func viewDidLoad() {

@@ -23,6 +23,7 @@
 "FEATURE.voiceOver.TITLE" = "VoiceOver";
 "FEATURE.text.TITLE" = "Text";
 "FEATURE.zoom.TITLE" = "Zoom";
+"FEATURE.switch.TITLE" = "Switch Labels";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
