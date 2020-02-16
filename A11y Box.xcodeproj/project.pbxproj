@@ -50,6 +50,8 @@
 		B5C03DE523F02824001D2C5C /* AccessibilityHiddenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C03DE323F02824001D2C5C /* AccessibilityHiddenViewController.xib */; };
 		B5CCC39F23F9B3F9002BF065 /* DarkerColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC39D23F9B3F9002BF065 /* DarkerColorsViewController.swift */; };
 		B5CCC3A023F9B3F9002BF065 /* DarkerColorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CCC39E23F9B3F9002BF065 /* DarkerColorsViewController.xib */; };
+		B5CCC3A323F9C13E002BF065 /* DifferentiateColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC3A123F9C13E002BF065 /* DifferentiateColorsViewController.swift */; };
+		B5CCC3A423F9C13E002BF065 /* DifferentiateColorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CCC3A223F9C13E002BF065 /* DifferentiateColorsViewController.xib */; };
 		B5CD399523EF5C36009D2D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD399423EF5C36009D2D1F /* AppDelegate.swift */; };
 		B5CD399923EF5C36009D2D1F /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD399823EF5C36009D2D1F /* ExamplesViewController.swift */; };
 		B5CD399E23EF5C36009D2D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD399C23EF5C36009D2D1F /* Main.storyboard */; };
@@ -123,6 +125,8 @@
 		B5C03DE323F02824001D2C5C /* AccessibilityHiddenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityHiddenViewController.xib; sourceTree = "<group>"; };
 		B5CCC39D23F9B3F9002BF065 /* DarkerColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkerColorsViewController.swift; sourceTree = "<group>"; };
 		B5CCC39E23F9B3F9002BF065 /* DarkerColorsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkerColorsViewController.xib; sourceTree = "<group>"; };
+		B5CCC3A123F9C13E002BF065 /* DifferentiateColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentiateColorsViewController.swift; sourceTree = "<group>"; };
+		B5CCC3A223F9C13E002BF065 /* DifferentiateColorsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifferentiateColorsViewController.xib; sourceTree = "<group>"; };
 		B5CD399123EF5C36009D2D1F /* A11y Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A11y Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CD399423EF5C36009D2D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CD399823EF5C36009D2D1F /* ExamplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 				B5186B5F23F9A5630045C03C /* SwitchViewController.xib */,
 				B5CCC39D23F9B3F9002BF065 /* DarkerColorsViewController.swift */,
 				B5CCC39E23F9B3F9002BF065 /* DarkerColorsViewController.xib */,
+				B5CCC3A123F9C13E002BF065 /* DifferentiateColorsViewController.swift */,
+				B5CCC3A223F9C13E002BF065 /* DifferentiateColorsViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				B5C03DCF23EFFA27001D2C5C /* AccessibilityHintsViewController.xib in Resources */,
 				B5CD39BD23EF613F009D2D1F /* AccessibilityElementsViewController.xib in Resources */,
 				B5AF703723F079F0002E190F /* AccessibilityEscapeViewController.xib in Resources */,
+				B5CCC3A423F9C13E002BF065 /* DifferentiateColorsViewController.xib in Resources */,
 				B5C03DCB23EFF8C6001D2C5C /* AccessibilityValuesViewController.xib in Resources */,
 				B5C03DD723F0035D001D2C5C /* AccessibilityLanguageViewController.xib in Resources */,
 				B5CD39A323EF5C3C009D2D1F /* LaunchScreen.storyboard in Resources */,
@@ -440,6 +447,7 @@
 				B5C03DCE23EFFA27001D2C5C /* AccessibilityHintsViewController.swift in Sources */,
 				B5992B5123F0976E00E7DB89 /* AccessibilityFocusViewController.swift in Sources */,
 				B5992B5523F09ABE00E7DB89 /* GuidedAccessViewController.swift in Sources */,
+				B5CCC3A323F9C13E002BF065 /* DifferentiateColorsViewController.swift in Sources */,
 				B5AF702D23F0721C002E190F /* OrderedTraversalView.swift in Sources */,
 				B5C03DE423F02824001D2C5C /* AccessibilityHiddenViewController.swift in Sources */,
 				B5AF702A23F071A6002E190F /* TraversalOrderViewController.swift in Sources */,

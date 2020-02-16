@@ -26,6 +26,7 @@
 "FEATURE.transparency.TITLE" = "Reduce Transparency";
 "FEATURE.switch.TITLE" = "Switch Labels";
 "FEATURE.increasedContrast.TITLE" = "Increased Contrast";
+"FEATURE.differentiateColor.TITLE" = "Differentiate Without Color";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -50,3 +51,8 @@
 
 "FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_OFF" = "Increased Contrast is currently disabled.";
 "FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_ON" = "Increased Contrast is currently enabled.";
+
+"FEATURE.DIFFERENTIATE_COLOR.DIFFERENTIATE_COLOR_OFF" = "Differentiate Without Color is currently disabled.";
+"FEATURE.DIFFERENTIATE_COLOR.DIFFERENTIATE_COLOR_ON" = "Differentiate Without Color is currently enabled.";
+"FEATURE.DIFFERENTIATE_COLOR.WARNING" = "Warning";
+"FEATURE.DIFFERENTIATE_COLOR.CRITICAL" = "Critical";
