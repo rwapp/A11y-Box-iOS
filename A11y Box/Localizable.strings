@@ -25,6 +25,7 @@
 "FEATURE.zoom.TITLE" = "Zoom";
 "FEATURE.transparency.TITLE" = "Reduce Transparency";
 "FEATURE.switch.TITLE" = "Switch Labels";
+"FEATURE.increasedContrast.TITLE" = "Increased Contrast";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -46,3 +47,6 @@
 
 "FEATURE.TRANSPARENCY.TRANSPARENCY_OFF" = "Reduce Transparency is currently disabled.";
 "FEATURE.TRANSPARENCY.TRANSPARENCY_ON" = "Reduce Transparency is currently enabled.";
+
+"FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_OFF" = "Increased Contrast is currently disabled.";
+"FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_ON" = "Increased Contrast is currently enabled.";

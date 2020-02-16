@@ -17,6 +17,7 @@ enum FeaturesDataSource: Int, CaseIterable {
     case zoom
     case transparency
     case switchLabels
+    case increasedContrast
 
     var identifier: String {
         switch self {
@@ -32,6 +33,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             return "transparency"
         case .switchLabels:
             return "switch"
+        case .increasedContrast:
+            return "increasedContrast"
         }
     }
 
@@ -51,6 +54,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             viewController = TransparencyViewController()
         case .switchLabels:
             viewController = SwitchViewController()
+        case .increasedContrast:
+            viewController = DarkerColorsViewController()
         }
 
         viewController.title = title()
