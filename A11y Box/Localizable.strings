@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  A11y Box
+
+  Created by Rob Whitaker on 09/02/2020.
+  Copyright © 2020 RWAPP. All rights reserved.
+*/
+
+// Listing 7-4
+"EXAMPLE.accessibilityElements.TITLE" = "Accessibility Elements";
+"EXAMPLE.accessibilityLabels.TITLE" = "Accessibility Labels";
+"EXAMPLE.accessibilityValues.TITLE" = "Accessibility Values";
+"EXAMPLE.accessibilityHints.TITLE" = "Accessibility Hints";
+"EXAMPLE.accessibilityLanguage.TITLE" = "Accessibility Language";
+"EXAMPLE.accessibilityHidden.TITLE" = "Accessibility Element Hidden";
+"EXAMPLE.accessibilityViewIsModal.TITLE" = "Accessibility View Is Modal";
+"EXAMPLE.accessibilityTraversalOrder.TITLE" = "Accessibility Traversal Order";
+"EXAMPLE.accessibilityEscape.TITLE" = "Accessibility Escape";
+"EXAMPLE.accessibilityShortcuts.TITLE" = "Accessibility Shortcuts";
+"EXAMPLE.accessibilityFocus.TITLE" = "Accessibility Focus";
+
+"FEATURE.guidedAccess.TITLE" = "Guided Access";
+"FEATURE.voiceOver.TITLE" = "VoiceOver";
+"FEATURE.text.TITLE" = "Text";
+"FEATURE.zoom.TITLE" = "Zoom";
+
+"EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
+
+"EXAMPLE.HINTS.HINT" = "VoiceOver reads the hint after a short pause.";
+
+"FEATURE.GUIDEDACCESS.ENABLED" = "Guided Access is currently enabled.";
+"FEATURE.GUIDEDACCESS.DISABLED" = "Guided Access is currently disabled.";
+
+"FEATURE.VOICEOVER.ENABLED" = "VoiceOver is currently enabled.";
+"FEATURE.VOICEOVER.DISABLED" = "VoiceOver is currently disabled.";
+"FEATURE.VOICEOVER.CONNNECTIVITY" = "Warning: Poor network connectivity detected";
+"FEATURE.VOICEOVER.LAYOUT_CHANGED" = "The screen's layout has changed.";
+"FEATURE.VOICEOVER.PITCH" = "This is the best app on the App Store!";
+"FEATURE.VOICEOVER.LANGUAGE" = "Hello in Spanish is: Hola";
+"FEATURE.VOICEOVER.SPELLED" = "Your account number ends in 1234";
+
+"FEATURE.TEXT.BOLD_ON" = "Bold text is currently enabled.";
+"FEATURE.TEXT.BOLD_OFF" = "Bold text is currently disabled.";
