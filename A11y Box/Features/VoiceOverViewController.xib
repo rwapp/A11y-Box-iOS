@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VoiceOverViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="voLanguageLabel" destination="b3J-QZ-5eC" id="2ag-or-xgw"/>
+                <outlet property="voPhoneticLabel" destination="ozy-La-tbV" id="gkW-cv-ezY"/>
+                <outlet property="voPitchLabel" destination="Ra0-uI-lXD" id="ufa-q1-n44"/>
+                <outlet property="voPunctuationLabel" destination="WVF-Ug-2Yj" id="0iP-VP-Y7H"/>
+                <outlet property="voSpelledLabel" destination="3Bg-Xc-wsq" id="Gyj-Ok-g9v"/>
+                <outlet property="voiceOverStatusLabel" destination="bET-xA-stQ" id="KNz-ex-Jt2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UmU-Vg-bdQ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FYa-Pa-QHu">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="776"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VoiceOver has a wide range of developer features." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dk-RV-cbZ" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="384.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bET-xA-stQ" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="28.5" width="398" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcf-qx-CdM" customClass="Button" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="86.5" width="398" height="30"/>
+                                    <state key="normal" title="Post Screen Changed Notification with Announcement"/>
+                                    <connections>
+                                        <action selector="changeScreeen" destination="-1" eventType="touchUpInside" id="AGh-mW-4sb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdG-Un-jRb" customClass="Button" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="124.5" width="398" height="30"/>
+                                    <state key="normal" title="Post Layout Changed Notification and Change Focus"/>
+                                    <connections>
+                                        <action selector="changeLayout" destination="-1" eventType="touchUpInside" id="orq-Hw-O7B"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUf-0Q-0Du" customClass="Button" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="162.5" width="398" height="30"/>
+                                    <state key="normal" title="Make an Announcement"/>
+                                    <connections>
+                                        <action selector="announcement" destination="-1" eventType="touchUpInside" id="KG9-rf-fS1"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqS-w5-OVG" customClass="Button" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="200.5" width="398" height="30"/>
+                                    <state key="normal" title="Make a Queued Announcement"/>
+                                    <connections>
+                                        <action selector="queuedAnnouncement" destination="-1" eventType="touchUpInside" id="gOc-Jr-d0x"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch helps give emphasis to spoken text. The second label has pitch applied." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nj9-pe-tgF" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="238.5" width="414" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the best app on the App Store!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8q-RD-TDr" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="267" width="288.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ra0-uI-lXD" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="295.5" width="50" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSw-fd-xTA" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="353.5" width="414" height="20.5"/>
+                                    <string key="text">Set an asscessibility language attribute to text to tell VoiceOver the language to use when reading. The second label has a language property applied.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello in Spanish is: Hola" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byw-9n-ofy" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="382" width="183" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3J-QZ-5eC" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="410.5" width="50" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell VoiceOver to spell text when you need to ensure VoiceOver reads individual characters. The second label has this attribute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkI-3h-1Sx" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="468.5" width="414" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your account number ends in 1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-6V-jhh" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="497" width="266.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Bg-Xc-wsq" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="525.5" width="50" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cet-Bw-JGY" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="583.5" width="414" height="20.5"/>
+                                    <string key="text">Apply a phonetic spelling to an accessibility label to specify how VoiceOver should pronounce a word. The second label is phonetic.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AirBnB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Od6-KS-sWE" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="612" width="52.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AirBnB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozy-La-tbV" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="640.5" width="52.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell VoiceOver punctuation is important for code or other similar text. The second label is marked with this attribute." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyN-A2-t05" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="669" width="414" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="print(&quot;Hello, World!&quot;)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vio-Vz-NnT" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="697.5" width="159.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVF-Ug-2Yj" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="726" width="50" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="rSw-fd-xTA" firstAttribute="top" secondItem="Ra0-uI-lXD" secondAttribute="bottom" constant="16" id="3Yy-cd-cZn"/>
+                                <constraint firstAttribute="trailing" secondItem="XqS-w5-OVG" secondAttribute="trailing" constant="16" id="58s-ns-Z99"/>
+                                <constraint firstItem="Cet-Bw-JGY" firstAttribute="top" secondItem="3Bg-Xc-wsq" secondAttribute="bottom" constant="16" id="AU7-h2-xmB"/>
+                                <constraint firstItem="dUf-0Q-0Du" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="AXF-ba-DXX"/>
+                                <constraint firstAttribute="trailing" secondItem="dUf-0Q-0Du" secondAttribute="trailing" constant="16" id="Fuh-pX-ZJI"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9dk-RV-cbZ" secondAttribute="trailing" constant="16" id="Gj7-NX-6zS"/>
+                                <constraint firstItem="pkI-3h-1Sx" firstAttribute="top" secondItem="b3J-QZ-5eC" secondAttribute="bottom" constant="16" id="H8K-6i-tCT"/>
+                                <constraint firstItem="XqS-w5-OVG" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="MYR-Fg-BQW"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bET-xA-stQ" secondAttribute="trailing" constant="16" id="Qfk-m8-vR5"/>
+                                <constraint firstItem="gyN-A2-t05" firstAttribute="top" secondItem="ozy-La-tbV" secondAttribute="bottom" constant="16" id="Vgb-YA-qC6"/>
+                                <constraint firstItem="zcf-qx-CdM" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="aFI-Cu-wLS"/>
+                                <constraint firstAttribute="trailing" secondItem="UdG-Un-jRb" secondAttribute="trailing" constant="16" id="apY-DL-Lqe"/>
+                                <constraint firstItem="Nj9-pe-tgF" firstAttribute="top" secondItem="XqS-w5-OVG" secondAttribute="bottom" constant="16" id="ctW-MV-P3c"/>
+                                <constraint firstItem="9dk-RV-cbZ" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="lyE-6y-ADw"/>
+                                <constraint firstItem="UdG-Un-jRb" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="sTO-Oo-m8j"/>
+                                <constraint firstAttribute="trailing" secondItem="zcf-qx-CdM" secondAttribute="trailing" constant="16" id="woS-S2-Inn"/>
+                                <constraint firstItem="bET-xA-stQ" firstAttribute="leading" secondItem="FYa-Pa-QHu" secondAttribute="leading" constant="16" id="xJb-vS-Lq3"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FYa-Pa-QHu" firstAttribute="leading" secondItem="Y1h-kp-VD8" secondAttribute="leading" id="2bJ-PO-3UD"/>
+                        <constraint firstItem="FYa-Pa-QHu" firstAttribute="bottom" secondItem="Y1h-kp-VD8" secondAttribute="bottom" id="71T-zc-Qve"/>
+                        <constraint firstItem="FYa-Pa-QHu" firstAttribute="top" secondItem="Y1h-kp-VD8" secondAttribute="top" id="VWn-1B-PTy"/>
+                        <constraint firstItem="FYa-Pa-QHu" firstAttribute="trailing" secondItem="Y1h-kp-VD8" secondAttribute="trailing" id="YhB-G3-ybv"/>
+                        <constraint firstItem="FYa-Pa-QHu" firstAttribute="width" secondItem="RY8-ZW-xAP" secondAttribute="width" id="ZZq-ba-DZK"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="Y1h-kp-VD8"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="RY8-ZW-xAP"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UmU-Vg-bdQ" secondAttribute="trailing" id="71v-We-maa"/>
+                <constraint firstAttribute="bottom" secondItem="UmU-Vg-bdQ" secondAttribute="bottom" id="N7y-1i-ias"/>
+                <constraint firstItem="UmU-Vg-bdQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OGE-L9-v2C"/>
+                <constraint firstItem="UmU-Vg-bdQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QOx-wY-eKs"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
+        </view>
+    </objects>
+</document>

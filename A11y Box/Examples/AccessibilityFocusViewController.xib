@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessibilityFocusViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Its possible to determine if your element has received/lost accessibility focus. You can then adjust your view if needed." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifI-Sm-IJs" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="64" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the button below with VoiceOver or Switch Control and notice the label changes." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5h-ZR-rzX" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="93" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH3-N9-sCh" customClass="FocusButton" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="130" width="374" height="30"/>
+                    <state key="normal" title="Not Focussed"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QH3-N9-sCh" secondAttribute="bottom" constant="20" id="3KH-qh-Yed"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ifI-Sm-IJs" secondAttribute="trailing" constant="20" id="4hA-4N-fIS"/>
+                <constraint firstItem="ifI-Sm-IJs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="EFg-yX-oK5"/>
+                <constraint firstAttribute="trailing" secondItem="S5h-ZR-rzX" secondAttribute="trailing" constant="20" id="FI4-A3-dyO"/>
+                <constraint firstItem="QH3-N9-sCh" firstAttribute="top" secondItem="S5h-ZR-rzX" secondAttribute="bottom" constant="16" id="HXW-Md-vm0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QH3-N9-sCh" secondAttribute="trailing" constant="20" id="MZn-eF-0fb"/>
+                <constraint firstItem="QH3-N9-sCh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Qt3-kT-QXo"/>
+                <constraint firstItem="ifI-Sm-IJs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Xd5-ED-gmp"/>
+                <constraint firstItem="S5h-ZR-rzX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="eJm-7m-JS1"/>
+                <constraint firstItem="S5h-ZR-rzX" firstAttribute="top" secondItem="ifI-Sm-IJs" secondAttribute="bottom" constant="8" id="mH4-ph-dPm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="83"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessibilityElementsViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+            <connections>
+                <outlet property="accessibleElement" destination="bor-rM-Jbr" id="e71-cw-mVX"/>
+                <outlet property="hiddenElement" destination="An6-4J-wES" id="trE-FN-ARI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="JNe-Mj-NqQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting elements as accessible makes them visible to assistive technology." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amg-8c-nAl" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="64" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This label is set as an accessibility element in code." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bor-rM-Jbr" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="93" width="374" height="42.5"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <bool key="isElement" value="NO"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This label is set as an accessibility element in Interface Builder." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nca-y8-UuS" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="143.5" width="374" height="42.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This label is hidden to accessibility in code." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An6-4J-wES" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                    <rect key="frame" x="20" y="194" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bor-rM-Jbr" secondAttribute="trailing" constant="20" id="4Nx-HC-BcZ"/>
+                <constraint firstItem="bor-rM-Jbr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Bvw-vT-004"/>
+                <constraint firstItem="An6-4J-wES" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="D9b-LS-cum"/>
+                <constraint firstItem="amg-8c-nAl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="JVy-Gl-z4M"/>
+                <constraint firstAttribute="trailing" secondItem="amg-8c-nAl" secondAttribute="trailing" constant="20" id="Krx-vQ-RME"/>
+                <constraint firstAttribute="trailing" secondItem="nca-y8-UuS" secondAttribute="trailing" constant="20" id="OBJ-Vf-B0r"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="An6-4J-wES" secondAttribute="trailing" constant="20" id="Yaw-ga-zdd"/>
+                <constraint firstItem="nca-y8-UuS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="dUo-SI-8G5"/>
+                <constraint firstItem="amg-8c-nAl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="rZo-YP-0za"/>
+                <constraint firstItem="nca-y8-UuS" firstAttribute="top" secondItem="bor-rM-Jbr" secondAttribute="bottom" constant="8" id="sIR-7u-yGa"/>
+                <constraint firstItem="An6-4J-wES" firstAttribute="top" secondItem="nca-y8-UuS" secondAttribute="bottom" constant="8" id="tJg-t6-0mc"/>
+                <constraint firstItem="bor-rM-Jbr" firstAttribute="top" secondItem="amg-8c-nAl" secondAttribute="bottom" constant="8" id="tLX-W7-GJG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="132" y="131"/>
+        </view>
+    </objects>
+</document>
