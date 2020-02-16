@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransparencyViewController" customModule="A11y_Box" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="ZAw-MZ-zfr" id="qIB-FC-l6Y"/>
+                <outlet property="transparencyStatusLabel" destination="T9k-mA-k7e" id="iC8-9i-21I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Earth" translatesAutoresizingMaskIntoConstraints="NO" id="YOW-Au-l5J">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzT-9G-IQl">
+                    <rect key="frame" x="16" y="104" width="382" height="45"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAw-MZ-zfr">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When your user has Reduce Transparency enabled you should use solid colours rather than transparent effects where possible." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgp-pE-7pk" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
+                            <rect key="frame" x="8" y="8" width="366" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9k-mA-k7e" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                            <rect key="frame" x="8" y="37" width="366" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ZAw-MZ-zfr" firstAttribute="centerX" secondItem="QzT-9G-IQl" secondAttribute="centerX" id="7Z2-6G-91V"/>
+                        <constraint firstItem="ZAw-MZ-zfr" firstAttribute="width" secondItem="QzT-9G-IQl" secondAttribute="width" id="Ayz-1U-f6N"/>
+                        <constraint firstItem="T9k-mA-k7e" firstAttribute="leading" secondItem="QzT-9G-IQl" secondAttribute="leading" constant="8" id="BZ2-kv-y96"/>
+                        <constraint firstItem="ZAw-MZ-zfr" firstAttribute="centerY" secondItem="QzT-9G-IQl" secondAttribute="centerY" id="ETM-oe-Skn"/>
+                        <constraint firstItem="ZAw-MZ-zfr" firstAttribute="height" secondItem="QzT-9G-IQl" secondAttribute="height" id="Igx-v6-rjV"/>
+                        <constraint firstAttribute="bottom" secondItem="T9k-mA-k7e" secondAttribute="bottom" constant="8" id="MWN-Dd-lrk"/>
+                        <constraint firstItem="jgp-pE-7pk" firstAttribute="top" secondItem="QzT-9G-IQl" secondAttribute="top" constant="8" id="WRb-7K-AIZ"/>
+                        <constraint firstItem="T9k-mA-k7e" firstAttribute="top" secondItem="jgp-pE-7pk" secondAttribute="bottom" constant="8" id="WyS-85-HMN"/>
+                        <constraint firstAttribute="trailing" secondItem="T9k-mA-k7e" secondAttribute="trailing" constant="8" id="Z6G-Wc-1Qm"/>
+                        <constraint firstItem="jgp-pE-7pk" firstAttribute="leading" secondItem="QzT-9G-IQl" secondAttribute="leading" constant="8" id="vJx-ko-04x"/>
+                        <constraint firstAttribute="trailing" secondItem="jgp-pE-7pk" secondAttribute="trailing" constant="8" id="xxl-ug-gAY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YOW-Au-l5J" secondAttribute="bottom" id="EnQ-bv-dNe"/>
+                <constraint firstItem="YOW-Au-l5J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Glv-1p-MdI"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QzT-9G-IQl" secondAttribute="trailing" constant="16" id="IeO-7r-8ti"/>
+                <constraint firstItem="QzT-9G-IQl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="WbL-Gk-b1R"/>
+                <constraint firstAttribute="trailing" secondItem="YOW-Au-l5J" secondAttribute="trailing" id="bGw-k0-TVf"/>
+                <constraint firstItem="QzT-9G-IQl" firstAttribute="top" secondItem="PAI-TP-P1y" secondAttribute="top" constant="16" id="epp-VI-RL3"/>
+                <constraint firstItem="YOW-Au-l5J" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mWc-o6-HVh"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="PAI-TP-P1y"/>
+            <point key="canvasLocation" x="131.8840579710145" y="126.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Earth" width="4928" height="3280"/>
+    </resources>
+</document>

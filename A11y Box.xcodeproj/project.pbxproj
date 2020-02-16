@@ -61,6 +61,8 @@
 		B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */; };
 		B5DA1E9123F996A400D45A61 /* ZoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1E8F23F996A400D45A61 /* ZoomViewController.xib */; };
 		B5DA1E9323F99FB300D45A61 /* CustomModalAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E9223F99FB300D45A61 /* CustomModalAlert.swift */; };
+		B5E422B723F9AC08004871EE /* TransparencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E422B523F9AC08004871EE /* TransparencyViewController.swift */; };
+		B5E422B823F9AC08004871EE /* TransparencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E422B623F9AC08004871EE /* TransparencyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +134,8 @@
 		B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		B5DA1E8F23F996A400D45A61 /* ZoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomViewController.xib; sourceTree = "<group>"; };
 		B5DA1E9223F99FB300D45A61 /* CustomModalAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalAlert.swift; sourceTree = "<group>"; };
+		B5E422B523F9AC08004871EE /* TransparencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparencyViewController.swift; sourceTree = "<group>"; };
+		B5E422B623F9AC08004871EE /* TransparencyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransparencyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 				B5DA1E8B23F9915500D45A61 /* TextViewController.xib */,
 				B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */,
 				B5DA1E8F23F996A400D45A61 /* ZoomViewController.xib */,
+				B5E422B523F9AC08004871EE /* TransparencyViewController.swift */,
+				B5E422B623F9AC08004871EE /* TransparencyViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 				B579D68023F0364400B08B82 /* CustomModalAlert.xib in Resources */,
 				B5AF702F23F0726E002E190F /* OrderedTraversalView.xib in Resources */,
 				B5AF703323F07829002E190F /* UnorderedTraversalView.xib in Resources */,
+				B5E422B823F9AC08004871EE /* TransparencyViewController.xib in Resources */,
 				B5C03DCF23EFFA27001D2C5C /* AccessibilityHintsViewController.xib in Resources */,
 				B5CD39BD23EF613F009D2D1F /* AccessibilityElementsViewController.xib in Resources */,
 				B5AF703723F079F0002E190F /* AccessibilityEscapeViewController.xib in Resources */,
@@ -410,6 +417,7 @@
 				B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */,
 				B5AF703623F079F0002E190F /* AccessibilityEscapeViewController.swift in Sources */,
 				B5AF704023F092E7002E190F /* CustomActionViewController.swift in Sources */,
+				B5E422B723F9AC08004871EE /* TransparencyViewController.swift in Sources */,
 				B5C03DCA23EFF8C6001D2C5C /* AccessibilityValuesViewController.swift in Sources */,
 				B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */,
 				B5992B5B23F0A36E00E7DB89 /* FeaturesDataSource.swift in Sources */,
@@ -639,7 +647,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.rwapp.A11y_BoxUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.rwapp.A11y_BoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -659,7 +667,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.rwapp.A11y_BoxUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.rwapp.A11y_BoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

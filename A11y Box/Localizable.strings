@@ -23,6 +23,7 @@
 "FEATURE.voiceOver.TITLE" = "VoiceOver";
 "FEATURE.text.TITLE" = "Text";
 "FEATURE.zoom.TITLE" = "Zoom";
+"FEATURE.transparency.TITLE" = "Reduce Transparency";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -41,3 +42,6 @@
 
 "FEATURE.TEXT.BOLD_ON" = "Bold text is currently enabled.";
 "FEATURE.TEXT.BOLD_OFF" = "Bold text is currently disabled.";
+
+"FEATURE.TRANSPARENCY.TRANSPARENCY_OFF" = "Reduce Transparency is currently disabled.";
+"FEATURE.TRANSPARENCY.TRANSPARENCY_ON" = "Reduce Transparency is currently enabled.";
