@@ -19,6 +19,7 @@ enum FeaturesDataSource: Int, CaseIterable {
     case switchLabels
     case increasedContrast
     case differentiateColor
+    case smartInvert
 
     var identifier: String {
         switch self {
@@ -38,6 +39,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             return "increasedContrast"
         case .differentiateColor:
             return "differentiateColor"
+        case .smartInvert:
+            return "smartInvert"
         }
     }
 
@@ -61,6 +64,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             viewController = DarkerColorsViewController()
         case .differentiateColor:
             viewController = DifferentiateColorsViewController()
+        case .smartInvert:
+            viewController = SmartInvertViewController()
         }
 
         viewController.title = title()

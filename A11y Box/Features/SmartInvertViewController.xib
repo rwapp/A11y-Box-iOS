@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SmartInvertViewController" customModule="A11y_Box" customModuleProvider="target">
+            <connections>
+                <outlet property="earthImage" destination="PoM-x4-uRK" id="RLl-xL-OfC"/>
+                <outlet property="view" destination="1EZ-vR-Sal" id="ole-Kp-Rgc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="1EZ-vR-Sal">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Earth" translatesAutoresizingMaskIntoConstraints="NO" id="PoM-x4-uRK">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LOP-06-PEG">
+                    <rect key="frame" x="16" y="104" width="382" height="65.5"/>
+                    <subviews>
+                        <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4C6-7M-0VN">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="65.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPK-hY-tHh" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
+                            <rect key="frame" x="8" y="8" width="366" height="21"/>
+                            <string key="text">Smart Invert Colors tries to invert colors for most elements. Photos shouldn't be inverted, but iOS sometimes gets this wrong if content overlays the photo.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvY-vj-b36" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                            <rect key="frame" x="8" y="37" width="366" height="20.5"/>
+                            <string key="text">With Smart Invert enabled, compare this screen with the Reduce Transparrency one. Sometimes smart invert will invert that image, this one will always be naturally colored.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="4C6-7M-0VN" firstAttribute="centerX" secondItem="LOP-06-PEG" secondAttribute="centerX" id="3rz-oT-z3e"/>
+                        <constraint firstItem="QPK-hY-tHh" firstAttribute="leading" secondItem="LOP-06-PEG" secondAttribute="leading" constant="8" id="6xX-V7-x1d"/>
+                        <constraint firstItem="fvY-vj-b36" firstAttribute="top" secondItem="QPK-hY-tHh" secondAttribute="bottom" constant="8" id="CXd-8i-8qW"/>
+                        <constraint firstItem="4C6-7M-0VN" firstAttribute="centerY" secondItem="LOP-06-PEG" secondAttribute="centerY" id="DGo-on-tbu"/>
+                        <constraint firstItem="fvY-vj-b36" firstAttribute="leading" secondItem="LOP-06-PEG" secondAttribute="leading" constant="8" id="JYz-ij-nqP"/>
+                        <constraint firstAttribute="bottom" secondItem="fvY-vj-b36" secondAttribute="bottom" constant="8" id="SgK-hA-sql"/>
+                        <constraint firstAttribute="trailing" secondItem="fvY-vj-b36" secondAttribute="trailing" constant="8" id="Txh-BA-Ind"/>
+                        <constraint firstItem="4C6-7M-0VN" firstAttribute="height" secondItem="LOP-06-PEG" secondAttribute="height" id="bUf-FJ-caR"/>
+                        <constraint firstAttribute="trailing" secondItem="QPK-hY-tHh" secondAttribute="trailing" constant="8" id="hzb-hv-AHB"/>
+                        <constraint firstItem="QPK-hY-tHh" firstAttribute="top" secondItem="LOP-06-PEG" secondAttribute="top" constant="8" id="nyp-Wr-6Vs"/>
+                        <constraint firstItem="4C6-7M-0VN" firstAttribute="width" secondItem="LOP-06-PEG" secondAttribute="width" id="vhh-Q2-K4S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PoM-x4-uRK" secondAttribute="trailing" id="0uA-3A-ght"/>
+                <constraint firstItem="PoM-x4-uRK" firstAttribute="top" secondItem="1EZ-vR-Sal" secondAttribute="top" id="9q6-4R-RCg"/>
+                <constraint firstItem="PoM-x4-uRK" firstAttribute="leading" secondItem="1EZ-vR-Sal" secondAttribute="leading" id="Yxi-51-C5y"/>
+                <constraint firstItem="LOP-06-PEG" firstAttribute="top" secondItem="O8m-iH-TIS" secondAttribute="top" constant="16" id="bsp-db-eg0"/>
+                <constraint firstAttribute="bottom" secondItem="PoM-x4-uRK" secondAttribute="bottom" id="oOP-0g-fuP"/>
+                <constraint firstItem="LOP-06-PEG" firstAttribute="leading" secondItem="1EZ-vR-Sal" secondAttribute="leading" constant="16" id="omH-eM-49I"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LOP-06-PEG" secondAttribute="trailing" constant="16" id="qpa-jV-3ZX"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="O8m-iH-TIS"/>
+            <point key="canvasLocation" x="131.8840579710145" y="126.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Earth" width="4928" height="3280"/>
+    </resources>
+</document>

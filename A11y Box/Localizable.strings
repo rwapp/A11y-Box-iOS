@@ -27,6 +27,7 @@
 "FEATURE.switch.TITLE" = "Switch Labels";
 "FEATURE.increasedContrast.TITLE" = "Increased Contrast";
 "FEATURE.differentiateColor.TITLE" = "Differentiate Without Color";
+"FEATURE.smartInvert.TITLE" = "Smart Invert Colors";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
