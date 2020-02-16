@@ -62,6 +62,8 @@
 		B5CD39BD23EF613F009D2D1F /* AccessibilityElementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CD39BC23EF613F009D2D1F /* AccessibilityElementsViewController.xib */; };
 		B5CD39BF23EF62A4009D2D1F /* ExamplesDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD39BE23EF62A4009D2D1F /* ExamplesDatasource.swift */; };
 		B5CD39C623EFF164009D2D1F /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD39C523EFF164009D2D1F /* BodyLabel.swift */; };
+		B5CFBC4E23F9DBAC009627CA /* SmartInvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */; };
+		B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */; };
 		B5DA1E8C23F9915500D45A61 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E8A23F9915500D45A61 /* TextViewController.swift */; };
 		B5DA1E8D23F9915500D45A61 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1E8B23F9915500D45A61 /* TextViewController.xib */; };
 		B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */; };
@@ -141,6 +143,8 @@
 		B5CD39BC23EF613F009D2D1F /* AccessibilityElementsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityElementsViewController.xib; sourceTree = "<group>"; };
 		B5CD39BE23EF62A4009D2D1F /* ExamplesDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesDatasource.swift; sourceTree = "<group>"; };
 		B5CD39C523EFF164009D2D1F /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartInvertViewController.swift; sourceTree = "<group>"; };
+		B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmartInvertViewController.xib; sourceTree = "<group>"; };
 		B5DA1E8A23F9915500D45A61 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		B5DA1E8B23F9915500D45A61 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 		B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				B5CCC39E23F9B3F9002BF065 /* DarkerColorsViewController.xib */,
 				B5CCC3A123F9C13E002BF065 /* DifferentiateColorsViewController.swift */,
 				B5CCC3A223F9C13E002BF065 /* DifferentiateColorsViewController.xib */,
+				B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */,
+				B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 				B5C03DD723F0035D001D2C5C /* AccessibilityLanguageViewController.xib in Resources */,
 				B5CD39A323EF5C3C009D2D1F /* LaunchScreen.storyboard in Resources */,
 				B5AF702B23F071A6002E190F /* TraversalOrderViewController.xib in Resources */,
+				B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */,
 				B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */,
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
 				B5C03DDD23F017B7001D2C5C /* Localizable.strings in Resources */,
@@ -436,6 +443,7 @@
 			files = (
 				B5CD39C623EFF164009D2D1F /* BodyLabel.swift in Sources */,
 				B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */,
+				B5CFBC4E23F9DBAC009627CA /* SmartInvertViewController.swift in Sources */,
 				B5CCC39F23F9B3F9002BF065 /* DarkerColorsViewController.swift in Sources */,
 				B5AF703623F079F0002E190F /* AccessibilityEscapeViewController.swift in Sources */,
 				B5AF704023F092E7002E190F /* CustomActionViewController.swift in Sources */,
