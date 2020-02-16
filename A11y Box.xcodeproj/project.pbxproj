@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
+		B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5186B5F23F9A5630045C03C /* SwitchViewController.xib */; };
 		B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */; };
 		B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */; };
 		B579D67C23F02AB900B08B82 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67B23F02AB900B08B82 /* Button.swift */; };
@@ -76,6 +78,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		B5186B5F23F9A5630045C03C /* SwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
 		B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewIsModalViewController.swift; sourceTree = "<group>"; };
 		B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityViewIsModalViewController.xib; sourceTree = "<group>"; };
 		B579D67B23F02AB900B08B82 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
@@ -171,6 +175,8 @@
 				B5DA1E8F23F996A400D45A61 /* ZoomViewController.xib */,
 				B5E422B523F9AC08004871EE /* TransparencyViewController.swift */,
 				B5E422B623F9AC08004871EE /* TransparencyViewController.xib */,
+				B5186B5E23F9A5630045C03C /* SwitchViewController.swift */,
+				B5186B5F23F9A5630045C03C /* SwitchViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				B5C03DD323EFFB90001D2C5C /* AccessibilityTraitsViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
 				B5CD39A023EF5C3C009D2D1F /* Assets.xcassets in Resources */,
+				B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */,
 				B5CD399E23EF5C36009D2D1F /* Main.storyboard in Resources */,
 				B5C03DE523F02824001D2C5C /* AccessibilityHiddenViewController.xib in Resources */,
 				B5992B5223F0976E00E7DB89 /* AccessibilityFocusViewController.xib in Resources */,
@@ -442,6 +449,7 @@
 				B5C03DDB23F00498001D2C5C /* SubHeadLabel.swift in Sources */,
 				B5CD39BF23EF62A4009D2D1F /* ExamplesDatasource.swift in Sources */,
 				B5992B5923F0A31F00E7DB89 /* FeatruesViewController.swift in Sources */,
+				B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */,
 				B5CD39B923EF5F5D009D2D1F /* AccessibilityElementsViewController.swift in Sources */,
 				B579D67C23F02AB900B08B82 /* Button.swift in Sources */,
 			);

@@ -24,6 +24,7 @@
 "FEATURE.text.TITLE" = "Text";
 "FEATURE.zoom.TITLE" = "Zoom";
 "FEATURE.transparency.TITLE" = "Reduce Transparency";
+"FEATURE.switch.TITLE" = "Switch Labels";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
