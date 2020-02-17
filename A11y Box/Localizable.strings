@@ -28,6 +28,7 @@
 "FEATURE.increasedContrast.TITLE" = "Increased Contrast";
 "FEATURE.differentiateColor.TITLE" = "Differentiate Without Color";
 "FEATURE.smartInvert.TITLE" = "Smart Invert Colors";
+"FEATURE.grayscale.TITLE" = "Grayscale";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -57,3 +58,8 @@
 "FEATURE.DIFFERENTIATE_COLOR.DIFFERENTIATE_COLOR_ON" = "Differentiate Without Color is currently enabled.";
 "FEATURE.DIFFERENTIATE_COLOR.WARNING" = "Warning";
 "FEATURE.DIFFERENTIATE_COLOR.CRITICAL" = "Critical";
+
+"FEATURE.GRAYSCALE.GRAYSCALE_OFF" = "Grayscale is currently disabled.";
+"FEATURE.GRAYSCALE.GRAYSCALE_ON" = "Grayscale is currently enabled.";
+"FEATURE.GRAYSCALE.WARNING" = "Warning";
+"FEATURE.GRAYSCALE.CRITICAL" = "Critical";
