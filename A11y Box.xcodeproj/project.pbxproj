@@ -64,6 +64,8 @@
 		B5CD39C623EFF164009D2D1F /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD39C523EFF164009D2D1F /* BodyLabel.swift */; };
 		B5CFBC4E23F9DBAC009627CA /* SmartInvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */; };
 		B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */; };
+		B5CFBC5223F9E044009627CA /* GrayscaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFBC5023F9E044009627CA /* GrayscaleViewController.swift */; };
+		B5CFBC5323F9E044009627CA /* GrayscaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CFBC5123F9E044009627CA /* GrayscaleViewController.xib */; };
 		B5DA1E8C23F9915500D45A61 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E8A23F9915500D45A61 /* TextViewController.swift */; };
 		B5DA1E8D23F9915500D45A61 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1E8B23F9915500D45A61 /* TextViewController.xib */; };
 		B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */; };
@@ -145,6 +147,8 @@
 		B5CD39C523EFF164009D2D1F /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
 		B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartInvertViewController.swift; sourceTree = "<group>"; };
 		B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmartInvertViewController.xib; sourceTree = "<group>"; };
+		B5CFBC5023F9E044009627CA /* GrayscaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayscaleViewController.swift; sourceTree = "<group>"; };
+		B5CFBC5123F9E044009627CA /* GrayscaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrayscaleViewController.xib; sourceTree = "<group>"; };
 		B5DA1E8A23F9915500D45A61 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		B5DA1E8B23F9915500D45A61 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 		B5DA1E8E23F996A400D45A61 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				B5CCC3A223F9C13E002BF065 /* DifferentiateColorsViewController.xib */,
 				B5CFBC4C23F9DBAC009627CA /* SmartInvertViewController.swift */,
 				B5CFBC4D23F9DBAC009627CA /* SmartInvertViewController.xib */,
+				B5CFBC5023F9E044009627CA /* GrayscaleViewController.swift */,
+				B5CFBC5123F9E044009627CA /* GrayscaleViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -393,6 +399,7 @@
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
 				B5C03DDD23F017B7001D2C5C /* Localizable.strings in Resources */,
 				B5DA1E8D23F9915500D45A61 /* TextViewController.xib in Resources */,
+				B5CFBC5323F9E044009627CA /* GrayscaleViewController.xib in Resources */,
 				B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */,
 				B5C03DD323EFFB90001D2C5C /* AccessibilityTraitsViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
@@ -459,6 +466,7 @@
 				B5AF702D23F0721C002E190F /* OrderedTraversalView.swift in Sources */,
 				B5C03DE423F02824001D2C5C /* AccessibilityHiddenViewController.swift in Sources */,
 				B5AF702A23F071A6002E190F /* TraversalOrderViewController.swift in Sources */,
+				B5CFBC5223F9E044009627CA /* GrayscaleViewController.swift in Sources */,
 				B5C03DC723EFF781001D2C5C /* SceneDelegate.swift in Sources */,
 				B5C03DDF23F01B40001D2C5C /* String+Localization.swift in Sources */,
 				B5C03DD223EFFB90001D2C5C /* AccessibilityTraitsViewController.swift in Sources */,
