@@ -34,7 +34,6 @@ class ReduceMotionViewController: UIViewController {
 
     private func setupAnimation() {
         if reduceMotionStatus {
-            statusLabel.textColor = .black
             statusLabel.text = "FEATURE.ANIMATION.ENABLED".localized()
         } else {
             statusLabel.text = "FEATURE.ANIMATION.DISABLED".localized()
@@ -43,29 +42,24 @@ class ReduceMotionViewController: UIViewController {
 
     }
 
-    private func changeColor() {
-        statusLabel.textColor = randomColor()
-    }
-
     private func moveRight() {
-        statusLabel.center = CGPoint(x: view.frame.width - statusLabel.frame.width, y: statusLabel.center.y)
+        statusLabel.center = CGPoint(x: view.frame.width - statusLabel.frame.width,
+                                     y: statusLabel.center.y)
     }
 
     private func moveLeft() {
-        statusLabel.center = CGPoint(x: 0 + statusLabel.frame.width, y: statusLabel.center.y)
+        statusLabel.center = CGPoint(x: 0 + statusLabel.frame.width,
+                                     y: statusLabel.center.y)
     }
 
     private func animate() {
         if !reduceMotionStatus {
             UIView.animate(withDuration: 2.5,
                            animations: {
-                            self.changeColor()
                             self.moveRight()
-
             }) { _ in
                 UIView.animate(withDuration: 2.5, animations: {
                     self.moveLeft()
-                    self.changeColor()
                 }) { _ in
                     self.animate()
                 }
@@ -78,16 +72,5 @@ class ReduceMotionViewController: UIViewController {
         // check reduceMotionStatus for current status.
         // stop or reduce the intensity of animation.
         setupAnimation()
-    }
-
-    private func randomColor() -> UIColor {
-        return UIColor(red: random(),
-                       green: random(),
-                       blue: random(),
-                       alpha: 1.0)
-    }
-
-    private func random() -> CGFloat {
-        return CGFloat(arc4random()) / CGFloat(UInt32.max)
     }
 }
