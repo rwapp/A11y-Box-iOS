@@ -23,6 +23,7 @@ enum FeaturesDataSource: Int, CaseIterable {
     case grayscale
     case animation
     case spokenContent
+    case darkMode
 
     var identifier: String {
         switch self {
@@ -50,6 +51,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             return "animation"
         case .spokenContent:
             return "spokenContent"
+        case .darkMode:
+            return "darkMode"
         }
     }
 
@@ -81,6 +84,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             viewController = ReduceMotionViewController()
         case .spokenContent:
             viewController = SpokenContentViewController()
+        case .darkMode:
+            viewController = DarkModeViewController()
         }
 
         viewController.title = title()
