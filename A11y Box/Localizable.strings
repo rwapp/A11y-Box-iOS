@@ -29,6 +29,7 @@
 "FEATURE.differentiateColor.TITLE" = "Differentiate Without Color";
 "FEATURE.smartInvert.TITLE" = "Smart Invert Colors";
 "FEATURE.grayscale.TITLE" = "Grayscale";
+"FEATURE.animation.TITLE" = "Reduce Motion";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -63,3 +64,6 @@
 "FEATURE.GRAYSCALE.GRAYSCALE_ON" = "Grayscale is currently enabled.";
 "FEATURE.GRAYSCALE.WARNING" = "Warning";
 "FEATURE.GRAYSCALE.CRITICAL" = "Critical";
+
+"FEATURE.ANIMATION.ENABLED" = "Enabled";
+"FEATURE.ANIMATION.DISABLED" = "Disabled";
