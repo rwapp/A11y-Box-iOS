@@ -30,6 +30,7 @@
 "FEATURE.smartInvert.TITLE" = "Smart Invert Colors";
 "FEATURE.grayscale.TITLE" = "Grayscale";
 "FEATURE.animation.TITLE" = "Reduce Motion";
+"FEATURE.spokenContent.TITLE" = "Spoken Content";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -67,3 +68,8 @@
 
 "FEATURE.ANIMATION.ENABLED" = "Enabled";
 "FEATURE.ANIMATION.DISABLED" = "Disabled";
+
+"FEATURE.SPOKEN_CONTENT.SPEAK_SELECTION.ENABLED" = "Speak Selection is currently enabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SELECTION.DISABLED" = "Speak Selection is currently disabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.ENABLED" = "Speak Screen is currently enabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.DISABLED" = "Speak Screen is currently disabled";

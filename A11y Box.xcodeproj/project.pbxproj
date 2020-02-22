@@ -31,6 +31,8 @@
 		B5AF703723F079F0002E190F /* AccessibilityEscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AF703523F079F0002E190F /* AccessibilityEscapeViewController.xib */; };
 		B5AF704023F092E7002E190F /* CustomActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AF703E23F092E6002E190F /* CustomActionViewController.swift */; };
 		B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AF703F23F092E6002E190F /* CustomActionViewController.xib */; };
+		B5BA01332401E345008C87F6 /* SpokenContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA01312401E345008C87F6 /* SpokenContentViewController.swift */; };
+		B5BA01342401E345008C87F6 /* SpokenContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BA01322401E345008C87F6 /* SpokenContentViewController.xib */; };
 		B5C03DC423EFF64A001D2C5C /* AccessibilityLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C03DC223EFF64A001D2C5C /* AccessibilityLabelsViewController.swift */; };
 		B5C03DC523EFF64A001D2C5C /* AccessibilityLabelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C03DC323EFF64A001D2C5C /* AccessibilityLabelsViewController.xib */; };
 		B5C03DC723EFF781001D2C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C03DC623EFF781001D2C5C /* SceneDelegate.swift */; };
@@ -112,6 +114,8 @@
 		B5AF703523F079F0002E190F /* AccessibilityEscapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityEscapeViewController.xib; sourceTree = "<group>"; };
 		B5AF703E23F092E6002E190F /* CustomActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionViewController.swift; sourceTree = "<group>"; };
 		B5AF703F23F092E6002E190F /* CustomActionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomActionViewController.xib; sourceTree = "<group>"; };
+		B5BA01312401E345008C87F6 /* SpokenContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenContentViewController.swift; sourceTree = "<group>"; };
+		B5BA01322401E345008C87F6 /* SpokenContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpokenContentViewController.xib; sourceTree = "<group>"; };
 		B5C03DC223EFF64A001D2C5C /* AccessibilityLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLabelsViewController.swift; sourceTree = "<group>"; };
 		B5C03DC323EFF64A001D2C5C /* AccessibilityLabelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityLabelsViewController.xib; sourceTree = "<group>"; };
 		B5C03DC623EFF781001D2C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 				B5CFBC5123F9E044009627CA /* GrayscaleViewController.xib */,
 				B5CFBC5423FB3BA4009627CA /* ReduceMotionViewController.swift */,
 				B5CFBC5523FB3BA4009627CA /* ReduceMotionViewController.xib */,
+				B5BA01312401E345008C87F6 /* SpokenContentViewController.swift */,
+				B5BA01322401E345008C87F6 /* SpokenContentViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 				B5C03DD723F0035D001D2C5C /* AccessibilityLanguageViewController.xib in Resources */,
 				B5CD39A323EF5C3C009D2D1F /* LaunchScreen.storyboard in Resources */,
 				B5AF702B23F071A6002E190F /* TraversalOrderViewController.xib in Resources */,
+				B5BA01342401E345008C87F6 /* SpokenContentViewController.xib in Resources */,
 				B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */,
 				B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */,
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
@@ -483,6 +490,7 @@
 				B5C03DD623F0035D001D2C5C /* AccessibilityLanguageViewController.swift in Sources */,
 				B5CD399523EF5C36009D2D1F /* AppDelegate.swift in Sources */,
 				B5DA1E9323F99FB300D45A61 /* CustomModalAlert.swift in Sources */,
+				B5BA01332401E345008C87F6 /* SpokenContentViewController.swift in Sources */,
 				B5CD399923EF5C36009D2D1F /* ExamplesViewController.swift in Sources */,
 				B5AF703223F07829002E190F /* UnorderedTraversalView.swift in Sources */,
 				B5C03DC423EFF64A001D2C5C /* AccessibilityLabelsViewController.swift in Sources */,
