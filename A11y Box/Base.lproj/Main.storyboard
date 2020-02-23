@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,7 +40,7 @@
         <!--Master-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
-                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="ExamplesViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="ExamplesViewController" customModule="A11y_Box" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="r7i-6Z-zg0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,12 +82,14 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1gs-2N-KaR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dJ7-7g-cIM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="RMx-3f-FxP" kind="relationship" relationship="viewControllers" id="fb4-tG-Hbo"/>
                         <segue destination="Gqc-uB-dgw" kind="relationship" relationship="viewControllers" id="bbL-fU-LJu"/>
+                        <segue destination="d5L-cj-adU" kind="relationship" relationship="viewControllers" id="zDh-Lh-yMc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FzR-EK-poQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -96,7 +99,7 @@
         <!--Master-->
         <scene sceneID="5l8-zh-bwZ">
             <objects>
-                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="cKd-dY-XCE" customClass="FeatruesViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="cKd-dY-XCE" customClass="FeatruesViewController" customModule="A11y_Box" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JJ0-X8-B5g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,8 +132,65 @@
                     <navigationItem key="navigationItem" title="Examples" id="k4p-fV-pTS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6v-m6-zrU" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z2d-4p-z3k">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </objects>
             <point key="canvasLocation" x="1705.7971014492755" y="93.75"/>
+        </scene>
+        <!--Tests-->
+        <scene sceneID="X6r-pQ-vOA">
+            <objects>
+                <viewController id="d5L-cj-adU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tAi-eZ-dJo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY3-vv-zI4">
+                                <rect key="frame" x="16" y="60" width="43" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="gHX-rq-12G"/>
+                                    <constraint firstAttribute="width" constant="43" id="mHr-db-Akf"/>
+                                </constraints>
+                                <state key="normal" title="This button is too small"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhy-gd-8uA" customClass="Button" customModule="A11y_Box" customModuleProvider="target">
+                                <rect key="frame" x="16" y="119" width="382" height="30"/>
+                                <state key="normal" title="this button has a really long label and starts with a lowercase letter"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Earth" translatesAutoresizingMaskIntoConstraints="NO" id="lID-6k-8iI">
+                                <rect key="frame" x="16" y="165" width="382" height="200"/>
+                                <accessibility key="accessibilityConfiguration" label="image of the Earth from space">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="mWV-Nn-HsC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lID-6k-8iI" firstAttribute="top" secondItem="Yhy-gd-8uA" secondAttribute="bottom" constant="16" id="75I-Ts-XPW"/>
+                            <constraint firstItem="mY3-vv-zI4" firstAttribute="leading" secondItem="P3Z-vr-mY4" secondAttribute="leading" constant="16" id="C5D-AL-4la"/>
+                            <constraint firstItem="Yhy-gd-8uA" firstAttribute="top" secondItem="mY3-vv-zI4" secondAttribute="bottom" constant="16" id="T37-DS-y7R"/>
+                            <constraint firstItem="P3Z-vr-mY4" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lID-6k-8iI" secondAttribute="bottom" constant="16" id="ckG-UD-BLA"/>
+                            <constraint firstItem="P3Z-vr-mY4" firstAttribute="trailing" secondItem="lID-6k-8iI" secondAttribute="trailing" constant="16" id="jIO-8q-I7y"/>
+                            <constraint firstItem="Yhy-gd-8uA" firstAttribute="leading" secondItem="P3Z-vr-mY4" secondAttribute="leading" constant="16" id="sBO-lE-h3i"/>
+                            <constraint firstItem="P3Z-vr-mY4" firstAttribute="trailing" secondItem="Yhy-gd-8uA" secondAttribute="trailing" constant="16" id="sE8-X5-SD0"/>
+                            <constraint firstItem="mY3-vv-zI4" firstAttribute="top" secondItem="P3Z-vr-mY4" secondAttribute="top" constant="16" id="ts9-AY-zqy"/>
+                            <constraint firstItem="lID-6k-8iI" firstAttribute="leading" secondItem="P3Z-vr-mY4" secondAttribute="leading" constant="16" id="xSP-OT-Pri"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="P3Z-vr-mY4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tests" id="f5c-nK-Ux7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIZ-6G-p4a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-104" y="140"/>
         </scene>
         <!--Features-->
         <scene sceneID="dL4-6V-wRT">
@@ -152,5 +212,8 @@
             <point key="canvasLocation" x="795.6521739130435" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Earth" width="4928" height="3280"/>
+    </resources>
     <color key="tintColor" name="highlight"/>
 </document>
