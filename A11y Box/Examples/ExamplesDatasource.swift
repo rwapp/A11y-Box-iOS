@@ -22,6 +22,7 @@ enum ExamplesDatasource: Int, CaseIterable {
     case accessibilityEscape
     case accessibilityShortcuts
     case accessibilityFocus
+    case navigation
 
     var identifier: String {
         switch self {
@@ -47,6 +48,8 @@ enum ExamplesDatasource: Int, CaseIterable {
             return "accessibilityShortcuts"
         case .accessibilityFocus:
             return "accessibilityFocus"
+        case .navigation:
+            return "navigation"
         }
     }
 
@@ -76,6 +79,8 @@ enum ExamplesDatasource: Int, CaseIterable {
             viewController = CustomActionViewController()
         case .accessibilityFocus:
             viewController = AccessibilityFocusViewController()
+        case .navigation:
+            viewController = NavigationStyleViewController()
         }
 
         viewController.title = title()

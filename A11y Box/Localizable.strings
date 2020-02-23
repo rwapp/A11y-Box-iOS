@@ -18,6 +18,7 @@
 "EXAMPLE.accessibilityEscape.TITLE" = "Accessibility Escape";
 "EXAMPLE.accessibilityShortcuts.TITLE" = "Accessibility Shortcuts";
 "EXAMPLE.accessibilityFocus.TITLE" = "Accessibility Focus";
+"EXAMPLE.navigation.TITLE" = "Accessibility Navigation";
 
 "FEATURE.guidedAccess.TITLE" = "Guided Access";
 "FEATURE.voiceOver.TITLE" = "VoiceOver";
