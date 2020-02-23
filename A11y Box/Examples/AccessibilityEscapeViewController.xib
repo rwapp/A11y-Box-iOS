@@ -3,11 +3,12 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessibilityEscapeViewController" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessibilityEscapeViewController" customModule="A11y_Box" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -17,20 +18,20 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessibility escape allows assisitive technology users a faster way to dismiss a view." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bda-Ul-Kqo" customClass="SubHeadLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessibility escape allows assisitive technology users a faster way to dismiss a view." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bda-Ul-Kqo" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
                     <rect key="frame" x="20" y="64" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2W-iF-Yp8" customClass="BodyLabel" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2W-iF-Yp8" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
                     <rect key="frame" x="20" y="93" width="374" height="21"/>
                     <string key="text">Enable Switch Control or VoiceControl and select the button. In Switch Control select the button, choose the second tab, then Escape. With VoiceOver select any element on the alert and draw a 'Z' shape on the screen with two fingers.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41p-ms-U4g" customClass="Button" customModule="Developing_Inclusive_Mobile_Apps" customModuleProvider="target">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41p-ms-U4g" customClass="Button" customModule="A11y_Box" customModuleProvider="target">
                     <rect key="frame" x="20" y="130" width="374" height="30"/>
                     <state key="normal" title="Show An Alert"/>
                     <connections>
@@ -38,7 +39,7 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" name="BackgroundColour"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="41p-ms-U4g" secondAttribute="trailing" constant="20" id="0EH-gX-Mth"/>
                 <constraint firstItem="P2W-iF-Yp8" firstAttribute="top" secondItem="Bda-Ul-Kqo" secondAttribute="bottom" constant="8" id="0Uc-G4-jw6"/>
@@ -55,4 +56,9 @@
             <point key="canvasLocation" x="132" y="83"/>
         </view>
     </objects>
+    <resources>
+        <namedColor name="BackgroundColour">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

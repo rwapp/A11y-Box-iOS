@@ -51,7 +51,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" name="BackgroundColour"/>
             <constraints>
                 <constraint firstItem="JnH-B6-q9h" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="9xe-Wb-hGk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TUD-od-d2L" secondAttribute="trailing" constant="16" id="AxF-5y-5Qp"/>
@@ -74,6 +74,9 @@
         </view>
     </objects>
     <resources>
+        <namedColor name="BackgroundColour">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="ContrastVariants">
             <color red="0.70196078431372544" green="0.45098039215686275" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

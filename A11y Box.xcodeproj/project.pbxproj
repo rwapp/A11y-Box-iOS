@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
+		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
 		B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5186B5F23F9A5630045C03C /* SwitchViewController.xib */; };
 		B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */; };
@@ -90,6 +92,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
+		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		B5186B5F23F9A5630045C03C /* SwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
 		B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewIsModalViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 				B5CFBC5523FB3BA4009627CA /* ReduceMotionViewController.xib */,
 				B5BA01312401E345008C87F6 /* SpokenContentViewController.swift */,
 				B5BA01322401E345008C87F6 /* SpokenContentViewController.xib */,
+				B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */,
+				B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -411,6 +417,7 @@
 				B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */,
 				B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */,
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
+				B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */,
 				B5C03DDD23F017B7001D2C5C /* Localizable.strings in Resources */,
 				B5DA1E8D23F9915500D45A61 /* TextViewController.xib in Resources */,
 				B5CFBC5323F9E044009627CA /* GrayscaleViewController.xib in Resources */,
@@ -482,6 +489,7 @@
 				B5C03DE423F02824001D2C5C /* AccessibilityHiddenViewController.swift in Sources */,
 				B5AF702A23F071A6002E190F /* TraversalOrderViewController.swift in Sources */,
 				B5CFBC5223F9E044009627CA /* GrayscaleViewController.swift in Sources */,
+				B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */,
 				B5C03DC723EFF781001D2C5C /* SceneDelegate.swift in Sources */,
 				B5C03DDF23F01B40001D2C5C /* String+Localization.swift in Sources */,
 				B5C03DD223EFFB90001D2C5C /* AccessibilityTraitsViewController.swift in Sources */,

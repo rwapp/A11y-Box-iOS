@@ -31,6 +31,7 @@
 "FEATURE.grayscale.TITLE" = "Grayscale";
 "FEATURE.animation.TITLE" = "Reduce Motion";
 "FEATURE.spokenContent.TITLE" = "Spoken Content";
+"FEATURE.darkMode.TITLE" = "Dark Mode";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -73,3 +74,6 @@
 "FEATURE.SPOKEN_CONTENT.SPEAK_SELECTION.DISABLED" = "Speak Selection is currently disabled";
 "FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.ENABLED" = "Speak Screen is currently enabled";
 "FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.DISABLED" = "Speak Screen is currently disabled";
+
+"FEATURE.DARK_MODE.ENABLED" = "Dark Mode is currently enabled";
+"FEATURE.DARK_MODE.DISABLED" = "Dark Mode is currently disabled";
