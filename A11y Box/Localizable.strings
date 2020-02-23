@@ -33,6 +33,7 @@
 "FEATURE.spokenContent.TITLE" = "Spoken Content";
 "FEATURE.darkMode.TITLE" = "Dark Mode";
 "FEATURE.assistiveTouch.TITLE" = "Assistive Touch";
+"FEATURE.shakeToUndo.TITLE" = "Shake to Undo";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -81,3 +82,6 @@
 
 "FEATURE.ASSISTIVE_TOUCH.ENABLED" = "Assistive Touch is currently enabled.";
 "FEATURE.ASSISTIVE_TOUCH.DISABLED" = "Assistive Touch is currently disabled.";
+
+"FEATURE.SHAKE_TO_UNDO.ENABLED" = "Shake to Undo is currently enabled.";
+"FEATURE.SHAKE_TO_UNDO.DISABLED" = "Shake to Undo is currently disabled.";

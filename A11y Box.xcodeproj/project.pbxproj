@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */; };
 		B5123B9A2402718C0074BC38 /* AssistiveTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */; };
+		B5123B9D240277100074BC38 /* ShakeToUndoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123B9B240277100074BC38 /* ShakeToUndoViewController.swift */; };
+		B5123B9E240277100074BC38 /* ShakeToUndoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123B9C240277100074BC38 /* ShakeToUndoViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -96,6 +98,8 @@
 /* Begin PBXFileReference section */
 		B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistiveTouchViewController.swift; sourceTree = "<group>"; };
 		B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssistiveTouchViewController.xib; sourceTree = "<group>"; };
+		B5123B9B240277100074BC38 /* ShakeToUndoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeToUndoViewController.swift; sourceTree = "<group>"; };
+		B5123B9C240277100074BC38 /* ShakeToUndoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeToUndoViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 				B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */,
 				B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */,
 				B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */,
+				B5123B9B240277100074BC38 /* ShakeToUndoViewController.swift */,
+				B5123B9C240277100074BC38 /* ShakeToUndoViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -424,6 +430,7 @@
 				B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */,
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
 				B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */,
+				B5123B9E240277100074BC38 /* ShakeToUndoViewController.xib in Resources */,
 				B5C03DDD23F017B7001D2C5C /* Localizable.strings in Resources */,
 				B5DA1E8D23F9915500D45A61 /* TextViewController.xib in Resources */,
 				B5CFBC5323F9E044009627CA /* GrayscaleViewController.xib in Resources */,
@@ -499,6 +506,7 @@
 				B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */,
 				B5C03DC723EFF781001D2C5C /* SceneDelegate.swift in Sources */,
 				B5C03DDF23F01B40001D2C5C /* String+Localization.swift in Sources */,
+				B5123B9D240277100074BC38 /* ShakeToUndoViewController.swift in Sources */,
 				B5C03DD223EFFB90001D2C5C /* AccessibilityTraitsViewController.swift in Sources */,
 				B5992B5E23F0A93500E7DB89 /* VoiceOverViewController.swift in Sources */,
 				B5DA1E8C23F9915500D45A61 /* TextViewController.swift in Sources */,
