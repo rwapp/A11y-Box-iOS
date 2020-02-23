@@ -15,6 +15,7 @@ class NavigationStyleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Listing 9-4
         combinedStackView.accessibilityNavigationStyle = .combined
     }
 
