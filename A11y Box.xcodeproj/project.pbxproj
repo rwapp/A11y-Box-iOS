@@ -19,6 +19,8 @@
 		B5123BAC24027EB20074BC38 /* UserInputLabelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BAA24027EB20074BC38 /* UserInputLabelsViewController.xib */; };
 		B5123BAF240291C90074BC38 /* HearingDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BAD240291C90074BC38 /* HearingDevicesViewController.swift */; };
 		B5123BB0240291C90074BC38 /* HearingDevicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */; };
+		B5123BB3240293A50074BC38 /* MonoAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */; };
+		B5123BB4240293A50074BC38 /* MonoAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -116,6 +118,8 @@
 		B5123BAA24027EB20074BC38 /* UserInputLabelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInputLabelsViewController.xib; sourceTree = "<group>"; };
 		B5123BAD240291C90074BC38 /* HearingDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingDevicesViewController.swift; sourceTree = "<group>"; };
 		B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HearingDevicesViewController.xib; sourceTree = "<group>"; };
+		B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoAudioViewController.swift; sourceTree = "<group>"; };
+		B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonoAudioViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +255,8 @@
 				B5123BA2240279510074BC38 /* SwitchControlViewController.xib */,
 				B5123BAD240291C90074BC38 /* HearingDevicesViewController.swift */,
 				B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */,
+				B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */,
+				B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -463,6 +469,7 @@
 				B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */,
 				B5123BA4240279520074BC38 /* SwitchControlViewController.xib in Resources */,
 				B5C03DD323EFFB90001D2C5C /* AccessibilityTraitsViewController.xib in Resources */,
+				B5123BB4240293A50074BC38 /* MonoAudioViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
 				B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */,
 				B5CD39A023EF5C3C009D2D1F /* Assets.xcassets in Resources */,
@@ -547,6 +554,7 @@
 				B5CD399923EF5C36009D2D1F /* ExamplesViewController.swift in Sources */,
 				B5AF703223F07829002E190F /* UnorderedTraversalView.swift in Sources */,
 				B5C03DC423EFF64A001D2C5C /* AccessibilityLabelsViewController.swift in Sources */,
+				B5123BB3240293A50074BC38 /* MonoAudioViewController.swift in Sources */,
 				B5123BA3240279510074BC38 /* SwitchControlViewController.swift in Sources */,
 				B5C03DDB23F00498001D2C5C /* SubHeadLabel.swift in Sources */,
 				B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */,

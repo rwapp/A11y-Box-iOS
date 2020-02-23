@@ -38,6 +38,7 @@
 "FEATURE.shakeToUndo.TITLE" = "Shake to Undo";
 "FEATURE.switchControl.TITLE" = "Switch Control";
 "FEATURE.hearingDevices.TITLE" = "Hearing Devices";
+"FEATURE.monoAudio.TITLE" = "Mono Audio";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -98,3 +99,5 @@
 "FEATURE.HEARING_DEVICES.RIGHT" = "A right MFI hearing device is currently connected.";
 "FEATURE.HEARING_DEVICES.BOTH" = "Both left and right MFI hearing devices are currently connected.";
 
+"FEATURE.MONO_AUDIO.DISABLED" = "Mono Audio is currently disabled.";
+"FEATURE.MONO_AUDIO.ENABLED" = "Mono Audio is currently enabled.";
