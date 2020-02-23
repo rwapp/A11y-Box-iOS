@@ -13,6 +13,8 @@
 		B5123B9E240277100074BC38 /* ShakeToUndoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123B9C240277100074BC38 /* ShakeToUndoViewController.xib */; };
 		B5123BA3240279510074BC38 /* SwitchControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BA1240279510074BC38 /* SwitchControlViewController.swift */; };
 		B5123BA4240279520074BC38 /* SwitchControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BA2240279510074BC38 /* SwitchControlViewController.xib */; };
+		B5123BA724027BFD0074BC38 /* NavigationStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */; };
+		B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -104,6 +106,8 @@
 		B5123B9C240277100074BC38 /* ShakeToUndoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShakeToUndoViewController.xib; sourceTree = "<group>"; };
 		B5123BA1240279510074BC38 /* SwitchControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchControlViewController.swift; sourceTree = "<group>"; };
 		B5123BA2240279510074BC38 /* SwitchControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchControlViewController.xib; sourceTree = "<group>"; };
+		B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStyleViewController.swift; sourceTree = "<group>"; };
+		B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationStyleViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -315,6 +319,8 @@
 				B5AF703F23F092E6002E190F /* CustomActionViewController.xib */,
 				B5992B4F23F0976E00E7DB89 /* AccessibilityFocusViewController.swift */,
 				B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */,
+				B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */,
+				B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -444,6 +450,7 @@
 				B5123BA4240279520074BC38 /* SwitchControlViewController.xib in Resources */,
 				B5C03DD323EFFB90001D2C5C /* AccessibilityTraitsViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
+				B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */,
 				B5CD39A023EF5C3C009D2D1F /* Assets.xcassets in Resources */,
 				B5CCC3A023F9B3F9002BF065 /* DarkerColorsViewController.xib in Resources */,
 				B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */,
@@ -517,6 +524,7 @@
 				B5C03DD223EFFB90001D2C5C /* AccessibilityTraitsViewController.swift in Sources */,
 				B5992B5E23F0A93500E7DB89 /* VoiceOverViewController.swift in Sources */,
 				B5DA1E8C23F9915500D45A61 /* TextViewController.swift in Sources */,
+				B5123BA724027BFD0074BC38 /* NavigationStyleViewController.swift in Sources */,
 				B5C03DD623F0035D001D2C5C /* AccessibilityLanguageViewController.swift in Sources */,
 				B5CD399523EF5C36009D2D1F /* AppDelegate.swift in Sources */,
 				B5DA1E9323F99FB300D45A61 /* CustomModalAlert.swift in Sources */,
