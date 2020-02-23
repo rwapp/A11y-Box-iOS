@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserInputLabelsViewController" customModule="A11y_Box" customModuleProvider="target">
+            <connections>
+                <outlet property="playButton" destination="eaJ-D7-1nY" id="q77-QQ-sX3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessibility User Input Labels can provide extra human-speakable labels to trigger a control with Voice Control." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-gC-dfh" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="60" width="382" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUj-oc-Gxo" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="89" width="382" height="21"/>
+                    <string key="text">This button can be toggled with 'play', 'Play song', 'Play track' or 'Play Shake It Off'.
+                                                    </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaJ-D7-1nY" customClass="Button" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="16" y="126" width="382" height="30"/>
+                    <state key="normal" title="▶️"/>
+                    <connections>
+                        <action selector="playPressed" destination="-1" eventType="touchUpInside" id="ESB-pe-9of"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eaJ-D7-1nY" firstAttribute="top" secondItem="JUj-oc-Gxo" secondAttribute="bottom" constant="16" id="7zy-P7-m8o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eaJ-D7-1nY" secondAttribute="trailing" constant="16" id="IwM-L0-7mG"/>
+                <constraint firstItem="NXp-gC-dfh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="Lsf-Tg-eFD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NXp-gC-dfh" secondAttribute="trailing" constant="16" id="Vac-1g-RTZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JUj-oc-Gxo" secondAttribute="trailing" constant="16" id="YuV-k7-7KM"/>
+                <constraint firstItem="NXp-gC-dfh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cg2-xt-Nyn"/>
+                <constraint firstItem="eaJ-D7-1nY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="duP-jj-OXe"/>
+                <constraint firstItem="JUj-oc-Gxo" firstAttribute="top" secondItem="NXp-gC-dfh" secondAttribute="bottom" constant="8" id="f6Q-6Z-36L"/>
+                <constraint firstItem="JUj-oc-Gxo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="xcr-8u-5nd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="85"/>
+        </view>
+    </objects>
+</document>

@@ -15,6 +15,8 @@
 		B5123BA4240279520074BC38 /* SwitchControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BA2240279510074BC38 /* SwitchControlViewController.xib */; };
 		B5123BA724027BFD0074BC38 /* NavigationStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */; };
 		B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */; };
+		B5123BAB24027EB20074BC38 /* UserInputLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BA924027EB20074BC38 /* UserInputLabelsViewController.swift */; };
+		B5123BAC24027EB20074BC38 /* UserInputLabelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BAA24027EB20074BC38 /* UserInputLabelsViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -108,6 +110,8 @@
 		B5123BA2240279510074BC38 /* SwitchControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchControlViewController.xib; sourceTree = "<group>"; };
 		B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStyleViewController.swift; sourceTree = "<group>"; };
 		B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationStyleViewController.xib; sourceTree = "<group>"; };
+		B5123BA924027EB20074BC38 /* UserInputLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputLabelsViewController.swift; sourceTree = "<group>"; };
+		B5123BAA24027EB20074BC38 /* UserInputLabelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInputLabelsViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -321,6 +325,8 @@
 				B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */,
 				B5123BA524027BFD0074BC38 /* NavigationStyleViewController.swift */,
 				B5123BA624027BFD0074BC38 /* NavigationStyleViewController.xib */,
+				B5123BA924027EB20074BC38 /* UserInputLabelsViewController.swift */,
+				B5123BAA24027EB20074BC38 /* UserInputLabelsViewController.xib */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -428,6 +434,7 @@
 				B5AF702F23F0726E002E190F /* OrderedTraversalView.xib in Resources */,
 				B5AF703323F07829002E190F /* UnorderedTraversalView.xib in Resources */,
 				B5E422B823F9AC08004871EE /* TransparencyViewController.xib in Resources */,
+				B5123BAC24027EB20074BC38 /* UserInputLabelsViewController.xib in Resources */,
 				B5C03DCF23EFFA27001D2C5C /* AccessibilityHintsViewController.xib in Resources */,
 				B5CD39BD23EF613F009D2D1F /* AccessibilityElementsViewController.xib in Resources */,
 				B5CFBC5723FB3BA4009627CA /* ReduceMotionViewController.xib in Resources */,
@@ -500,6 +507,7 @@
 				B5CD39C623EFF164009D2D1F /* BodyLabel.swift in Sources */,
 				B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */,
 				B5CFBC4E23F9DBAC009627CA /* SmartInvertViewController.swift in Sources */,
+				B5123BAB24027EB20074BC38 /* UserInputLabelsViewController.swift in Sources */,
 				B5CCC39F23F9B3F9002BF065 /* DarkerColorsViewController.swift in Sources */,
 				B5AF703623F079F0002E190F /* AccessibilityEscapeViewController.swift in Sources */,
 				B5AF704023F092E7002E190F /* CustomActionViewController.swift in Sources */,

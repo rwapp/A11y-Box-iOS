@@ -19,6 +19,7 @@
 "EXAMPLE.accessibilityShortcuts.TITLE" = "Accessibility Shortcuts";
 "EXAMPLE.accessibilityFocus.TITLE" = "Accessibility Focus";
 "EXAMPLE.navigation.TITLE" = "Accessibility Navigation";
+"EXAMPLE.inputLabels.TITLE" = "User Input Labels";
 
 "FEATURE.guidedAccess.TITLE" = "Guided Access";
 "FEATURE.voiceOver.TITLE" = "VoiceOver";
