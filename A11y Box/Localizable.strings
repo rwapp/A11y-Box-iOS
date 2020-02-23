@@ -34,6 +34,7 @@
 "FEATURE.darkMode.TITLE" = "Dark Mode";
 "FEATURE.assistiveTouch.TITLE" = "Assistive Touch";
 "FEATURE.shakeToUndo.TITLE" = "Shake to Undo";
+"FEATURE.switchControl.TITLE" = "Switch Control";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -85,3 +86,6 @@
 
 "FEATURE.SHAKE_TO_UNDO.ENABLED" = "Shake to Undo is currently enabled.";
 "FEATURE.SHAKE_TO_UNDO.DISABLED" = "Shake to Undo is currently disabled.";
+
+"FEATURE.SWITCH_CONTROL.ENABLED" = "Switch Control is currently enabled.";
+"FEATURE.SWITCH_CONTROL.DISABLED" = "Switch Control is currently disabled.";

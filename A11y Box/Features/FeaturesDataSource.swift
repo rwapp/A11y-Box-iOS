@@ -26,6 +26,7 @@ enum FeaturesDataSource: Int, CaseIterable {
     case darkMode
     case assistiveTouch
     case shakeToUndo
+    case switchControl
 
     var identifier: String {
         switch self {
@@ -59,6 +60,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             return "assistiveTouch"
         case .shakeToUndo:
             return "shakeToUndo"
+        case .switchControl:
+            return "switchControl"
         }
     }
 
@@ -96,6 +99,8 @@ enum FeaturesDataSource: Int, CaseIterable {
             viewController = AssistiveTouchViewController()
         case .shakeToUndo:
             viewController = ShakeToUndoViewController()
+        case .switchControl:
+            viewController = SwitchControlViewController()
         }
 
         viewController.title = title()
