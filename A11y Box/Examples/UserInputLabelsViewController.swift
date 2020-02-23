@@ -18,9 +18,10 @@ class UserInputLabelsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Listing 9-5
         // Note: These strings should be localized
         playButton?.accessibilityLabel = "Play \(songTitle)"
+
+        // Listing 9-5
         playButton?.accessibilityUserInputLabels = ["Play",
                                                     "Play song",
                                                     "Play track",
