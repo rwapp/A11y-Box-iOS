@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */; };
+		B5123B9A2402718C0074BC38 /* AssistiveTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -92,6 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistiveTouchViewController.swift; sourceTree = "<group>"; };
+		B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssistiveTouchViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +223,8 @@
 				B5BA01322401E345008C87F6 /* SpokenContentViewController.xib */,
 				B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */,
 				B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */,
+				B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */,
+				B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				B5C03DE523F02824001D2C5C /* AccessibilityHiddenViewController.xib in Resources */,
 				B5992B5223F0976E00E7DB89 /* AccessibilityFocusViewController.xib in Resources */,
 				B5C03DC523EFF64A001D2C5C /* AccessibilityLabelsViewController.xib in Resources */,
+				B5123B9A2402718C0074BC38 /* AssistiveTouchViewController.xib in Resources */,
 				B5DA1E9123F996A400D45A61 /* ZoomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +510,7 @@
 				B5AF703223F07829002E190F /* UnorderedTraversalView.swift in Sources */,
 				B5C03DC423EFF64A001D2C5C /* AccessibilityLabelsViewController.swift in Sources */,
 				B5C03DDB23F00498001D2C5C /* SubHeadLabel.swift in Sources */,
+				B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */,
 				B5CD39BF23EF62A4009D2D1F /* ExamplesDatasource.swift in Sources */,
 				B5992B5923F0A31F00E7DB89 /* FeatruesViewController.swift in Sources */,
 				B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */,
