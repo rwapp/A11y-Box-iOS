@@ -81,7 +81,6 @@ class SpokenContentViewController: UIViewController {
             UIAccessibility.post(notification: .pageScrolled,
                                  argument: nil)
 
-
         return true
     }
 

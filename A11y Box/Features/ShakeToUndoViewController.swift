@@ -12,6 +12,7 @@ class ShakeToUndoViewController: UIViewController {
 
     @IBOutlet private weak var shakeToUndoStatusLabel: UILabel!
 
+    // Listing 9-2
     var shakeToUndoStatus: Bool {
         return UIAccessibility.isShakeToUndoEnabled
     }
