@@ -39,6 +39,7 @@
 "FEATURE.switchControl.TITLE" = "Switch Control";
 "FEATURE.hearingDevices.TITLE" = "Hearing Devices";
 "FEATURE.monoAudio.TITLE" = "Mono Audio";
+"FEATURE.captions.TITLE" = "Captions";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -101,3 +102,6 @@
 
 "FEATURE.MONO_AUDIO.DISABLED" = "Mono Audio is currently disabled.";
 "FEATURE.MONO_AUDIO.ENABLED" = "Mono Audio is currently enabled.";
+
+"FEATURE.CAPTIONS.ENABLED" = "Captions are currently enabled.";
+"FEATURE.CAPTIONS.DISABLED" = "Captions are currently disabled.";
