@@ -32,6 +32,7 @@
 "FEATURE.animation.TITLE" = "Reduce Motion";
 "FEATURE.spokenContent.TITLE" = "Spoken Content";
 "FEATURE.darkMode.TITLE" = "Dark Mode";
+"FEATURE.assistiveTouch.TITLE" = "Assistive Touch";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -77,3 +78,6 @@
 
 "FEATURE.DARK_MODE.ENABLED" = "Dark Mode is currently enabled";
 "FEATURE.DARK_MODE.DISABLED" = "Dark Mode is currently disabled";
+
+"FEATURE.ASSISTIVE_TOUCH.ENABLED" = "Assistive Touch is currently enabled.";
+"FEATURE.ASSISTIVE_TOUCH.DISABLED" = "Assistive Touch is currently disabled.";
