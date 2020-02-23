@@ -37,6 +37,7 @@
 "FEATURE.assistiveTouch.TITLE" = "Assistive Touch";
 "FEATURE.shakeToUndo.TITLE" = "Shake to Undo";
 "FEATURE.switchControl.TITLE" = "Switch Control";
+"FEATURE.hearingDevices.TITLE" = "Hearing Devices";
 
 "EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
 
@@ -91,3 +92,9 @@
 
 "FEATURE.SWITCH_CONTROL.ENABLED" = "Switch Control is currently enabled.";
 "FEATURE.SWITCH_CONTROL.DISABLED" = "Switch Control is currently disabled.";
+
+"FEATURE.HEARING_DEVICES.NONE" = "No MFI hearing devices are currently connected.";
+"FEATURE.HEARING_DEVICES.LEFT" = "A left MFI hearing device is currently connected.";
+"FEATURE.HEARING_DEVICES.RIGHT" = "A right MFI hearing device is currently connected.";
+"FEATURE.HEARING_DEVICES.BOTH" = "Both left and right MFI hearing devices are currently connected.";
+
