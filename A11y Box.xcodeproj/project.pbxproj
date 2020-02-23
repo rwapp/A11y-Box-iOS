@@ -21,6 +21,8 @@
 		B5123BB0240291C90074BC38 /* HearingDevicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */; };
 		B5123BB3240293A50074BC38 /* MonoAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */; };
 		B5123BB4240293A50074BC38 /* MonoAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */; };
+		B5123BB7240295130074BC38 /* CaptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123BB5240295130074BC38 /* CaptionsViewController.swift */; };
+		B5123BB8240295130074BC38 /* CaptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123BB6240295130074BC38 /* CaptionsViewController.xib */; };
 		B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */; };
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
@@ -120,6 +122,8 @@
 		B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HearingDevicesViewController.xib; sourceTree = "<group>"; };
 		B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoAudioViewController.swift; sourceTree = "<group>"; };
 		B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonoAudioViewController.xib; sourceTree = "<group>"; };
+		B5123BB5240295130074BC38 /* CaptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
+		B5123BB6240295130074BC38 /* CaptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptionsViewController.xib; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +261,8 @@
 				B5123BAE240291C90074BC38 /* HearingDevicesViewController.xib */,
 				B5123BB1240293A50074BC38 /* MonoAudioViewController.swift */,
 				B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */,
+				B5123BB5240295130074BC38 /* CaptionsViewController.swift */,
+				B5123BB6240295130074BC38 /* CaptionsViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -469,6 +475,7 @@
 				B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */,
 				B5123BA4240279520074BC38 /* SwitchControlViewController.xib in Resources */,
 				B5C03DD323EFFB90001D2C5C /* AccessibilityTraitsViewController.xib in Resources */,
+				B5123BB8240295130074BC38 /* CaptionsViewController.xib in Resources */,
 				B5123BB4240293A50074BC38 /* MonoAudioViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
 				B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */,
@@ -527,6 +534,7 @@
 				B5AF704023F092E7002E190F /* CustomActionViewController.swift in Sources */,
 				B5CFBC5623FB3BA4009627CA /* ReduceMotionViewController.swift in Sources */,
 				B5E422B723F9AC08004871EE /* TransparencyViewController.swift in Sources */,
+				B5123BB7240295130074BC38 /* CaptionsViewController.swift in Sources */,
 				B5C03DCA23EFF8C6001D2C5C /* AccessibilityValuesViewController.swift in Sources */,
 				B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */,
 				B5992B5B23F0A36E00E7DB89 /* FeaturesDataSource.swift in Sources */,
