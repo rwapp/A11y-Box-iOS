@@ -124,6 +124,7 @@
 		B5123BB2240293A50074BC38 /* MonoAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonoAudioViewController.xib; sourceTree = "<group>"; };
 		B5123BB5240295130074BC38 /* CaptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
 		B5123BB6240295130074BC38 /* CaptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptionsViewController.xib; sourceTree = "<group>"; };
+		B5123BB924029C010074BC38 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5156ED72401F3FC005B1D1C /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -270,6 +271,7 @@
 		B5CD398823EF5C36009D2D1F = {
 			isa = PBXGroup;
 			children = (
+				B5123BB924029C010074BC38 /* README.md */,
 				B5CD399323EF5C36009D2D1F /* A11y Box */,
 				B5CD39AC23EF5C3D009D2D1F /* A11y BoxUITests */,
 				B5CD399223EF5C36009D2D1F /* Products */,
