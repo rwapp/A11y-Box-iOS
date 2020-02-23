@@ -30,8 +30,13 @@ class TransparencyViewController: UIViewController {
     }
 
     private func setTransparency() {
-        backgroundView.alpha = reduceTransparencyStatus ? 1 : 0.5
-        transparencyStatusLabel.text = reduceTransparencyStatus ? "FEATURE.TRANSPARENCY.TRANSPARENCY_ON".localized() : "FEATURE.TRANSPARENCY.TRANSPARENCY_OFF".localized()
+        if reduceTransparencyStatus {
+            backgroundView.alpha = 1
+            transparencyStatusLabel.text = "FEATURE.TRANSPARENCY.TRANSPARENCY_ON".localized()
+        } else {
+            backgroundView.alpha = 0.5
+            transparencyStatusLabel.text = "FEATURE.TRANSPARENCY.TRANSPARENCY_OFF".localized()
+        }
     }
 
     @objc
