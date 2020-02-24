@@ -1,5 +1,5 @@
 //
-//  FeatruesViewController.swift
+//  FeaturesViewController.swift
 //  A11y Box
 //
 //  Created by Rob Whitaker on 09/02/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeatruesViewController: UITableViewController {
+class FeaturesViewController: UITableViewController {
 
         override func numberOfSections(in tableView: UITableView) -> Int {
             return 1

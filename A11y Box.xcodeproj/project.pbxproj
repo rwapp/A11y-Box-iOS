@@ -35,7 +35,7 @@
 		B5992B5223F0976E00E7DB89 /* AccessibilityFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */; };
 		B5992B5523F09ABE00E7DB89 /* GuidedAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5323F09ABE00E7DB89 /* GuidedAccessViewController.swift */; };
 		B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5992B5423F09ABE00E7DB89 /* GuidedAccessViewController.xib */; };
-		B5992B5923F0A31F00E7DB89 /* FeatruesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5823F0A31F00E7DB89 /* FeatruesViewController.swift */; };
+		B5992B5923F0A31F00E7DB89 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5823F0A31F00E7DB89 /* FeaturesViewController.swift */; };
 		B5992B5B23F0A36E00E7DB89 /* FeaturesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5A23F0A36E00E7DB89 /* FeaturesDataSource.swift */; };
 		B5992B5E23F0A93500E7DB89 /* VoiceOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5C23F0A93500E7DB89 /* VoiceOverViewController.swift */; };
 		B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5992B5D23F0A93500E7DB89 /* VoiceOverViewController.xib */; };
@@ -137,7 +137,7 @@
 		B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityFocusViewController.xib; sourceTree = "<group>"; };
 		B5992B5323F09ABE00E7DB89 /* GuidedAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedAccessViewController.swift; sourceTree = "<group>"; };
 		B5992B5423F09ABE00E7DB89 /* GuidedAccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuidedAccessViewController.xib; sourceTree = "<group>"; };
-		B5992B5823F0A31F00E7DB89 /* FeatruesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatruesViewController.swift; sourceTree = "<group>"; };
+		B5992B5823F0A31F00E7DB89 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
 		B5992B5A23F0A36E00E7DB89 /* FeaturesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesDataSource.swift; sourceTree = "<group>"; };
 		B5992B5C23F0A93500E7DB89 /* VoiceOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverViewController.swift; sourceTree = "<group>"; };
 		B5992B5D23F0A93500E7DB89 /* VoiceOverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceOverViewController.xib; sourceTree = "<group>"; };
@@ -225,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				B5992B5A23F0A36E00E7DB89 /* FeaturesDataSource.swift */,
-				B5992B5823F0A31F00E7DB89 /* FeatruesViewController.swift */,
+				B5992B5823F0A31F00E7DB89 /* FeaturesViewController.swift */,
 				B5992B5323F09ABE00E7DB89 /* GuidedAccessViewController.swift */,
 				B5992B5423F09ABE00E7DB89 /* GuidedAccessViewController.xib */,
 				B5992B5C23F0A93500E7DB89 /* VoiceOverViewController.swift */,
@@ -569,7 +569,7 @@
 				B5C03DDB23F00498001D2C5C /* SubHeadLabel.swift in Sources */,
 				B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */,
 				B5CD39BF23EF62A4009D2D1F /* ExamplesDatasource.swift in Sources */,
-				B5992B5923F0A31F00E7DB89 /* FeatruesViewController.swift in Sources */,
+				B5992B5923F0A31F00E7DB89 /* FeaturesViewController.swift in Sources */,
 				B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */,
 				B5123BAF240291C90074BC38 /* HearingDevicesViewController.swift in Sources */,
 				B5CD39B923EF5F5D009D2D1F /* AccessibilityElementsViewController.swift in Sources */,
