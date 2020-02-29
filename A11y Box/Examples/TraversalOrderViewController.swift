@@ -11,6 +11,6 @@ import UIKit
 class TraversalOrderViewController: UIViewController {
 
     @IBOutlet weak private var orderedTraversal: OrderedTraversalView!
-    @IBOutlet weak private var unorderedTraversal: OrderedTraversalView!
+    @IBOutlet weak private var unorderedTraversal: UnorderedTraversalView!
 
 }
