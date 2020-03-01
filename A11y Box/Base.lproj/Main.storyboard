@@ -128,7 +128,7 @@
                             <outlet property="delegate" destination="cKd-dY-XCE" id="wVf-Of-y3A"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Examples" id="k4p-fV-pTS"/>
+                    <navigationItem key="navigationItem" title="Features" id="k4p-fV-pTS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6v-m6-zrU" sceneMemberID="firstResponder"/>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z2d-4p-z3k">
