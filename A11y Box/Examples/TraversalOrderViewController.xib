@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TraversalOrderViewController" customModule="A11y_Box" customModuleProvider="target">
             <connections>
+                <outlet property="componentTraversal" destination="uny-c8-GWI" id="URr-9G-PHW"/>
                 <outlet property="orderedTraversal" destination="nHx-dD-7cc" id="oDQ-g5-KzD"/>
                 <outlet property="unorderedTraversal" destination="p4x-gW-1dj" id="vFK-bf-H0X"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -52,6 +53,13 @@
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SNg-it-Mgc"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uny-c8-GWI" customClass="ComponentTraversalView" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="423" width="374" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="58u-lg-T3W"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" name="BackgroundColour"/>
             <constraints>
@@ -64,16 +72,19 @@
                 <constraint firstItem="nHx-dD-7cc" firstAttribute="top" secondItem="txQ-yb-glZ" secondAttribute="bottom" constant="16" id="YtW-Xm-OSc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qOK-j0-FN0" secondAttribute="trailing" constant="20" id="aHi-1A-b0w"/>
                 <constraint firstItem="7Zf-hl-Pzg" firstAttribute="top" secondItem="qOK-j0-FN0" secondAttribute="bottom" constant="8" id="aYx-Qs-VO7"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nHx-dD-7cc" secondAttribute="bottom" constant="20" id="kiu-x0-Jaw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uny-c8-GWI" secondAttribute="trailing" constant="20" id="azP-AA-KtF"/>
+                <constraint firstItem="uny-c8-GWI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.903382" id="bhG-Up-byv"/>
+                <constraint firstItem="uny-c8-GWI" firstAttribute="top" secondItem="nHx-dD-7cc" secondAttribute="bottom" constant="16" id="cjO-Se-Nbn"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nHx-dD-7cc" secondAttribute="trailing" constant="20" id="lJz-vM-Uvh"/>
                 <constraint firstItem="nHx-dD-7cc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="mNI-fr-FFq"/>
                 <constraint firstItem="p4x-gW-1dj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="oyb-rp-vm1"/>
+                <constraint firstItem="uny-c8-GWI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="pJa-rh-cCb"/>
                 <constraint firstItem="txQ-yb-glZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="w1R-jr-Mpf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="p4x-gW-1dj" secondAttribute="trailing" constant="20" id="wea-Nt-kbF"/>
                 <constraint firstItem="txQ-yb-glZ" firstAttribute="top" secondItem="p4x-gW-1dj" secondAttribute="bottom" constant="20" id="zlR-If-5gh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="132" y="127"/>
+            <point key="canvasLocation" x="131.8840579710145" y="126.5625"/>
         </view>
     </objects>
     <resources>
