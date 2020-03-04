@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class ComponentTraversalView: UIView {
 
     @IBOutlet weak var tile1: TileView!

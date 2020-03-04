@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class TileView: UIView {
     @IBOutlet weak var header: UILabel!
     @IBOutlet weak var detail: UILabel!

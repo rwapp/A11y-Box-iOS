@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class OrderedTraversalView: UIView {
 
     @IBOutlet weak var header1: UILabel!
