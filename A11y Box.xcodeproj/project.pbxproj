@@ -29,7 +29,7 @@
 		B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5186B5F23F9A5630045C03C /* SwitchViewController.xib */; };
 		B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */; };
 		B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */; };
-		B579D67C23F02AB900B08B82 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67B23F02AB900B08B82 /* Button.swift */; };
+		B579D67C23F02AB900B08B82 /* A11yButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67B23F02AB900B08B82 /* A11yButton.swift */; };
 		B579D68023F0364400B08B82 /* CustomModalAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = B579D67F23F0364400B08B82 /* CustomModalAlert.xib */; };
 		B5992B5123F0976E00E7DB89 /* AccessibilityFocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B4F23F0976E00E7DB89 /* AccessibilityFocusViewController.swift */; };
 		B5992B5223F0976E00E7DB89 /* AccessibilityFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */; };
@@ -131,7 +131,7 @@
 		B5186B5F23F9A5630045C03C /* SwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
 		B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewIsModalViewController.swift; sourceTree = "<group>"; };
 		B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityViewIsModalViewController.xib; sourceTree = "<group>"; };
-		B579D67B23F02AB900B08B82 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B579D67B23F02AB900B08B82 /* A11yButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11yButton.swift; sourceTree = "<group>"; };
 		B579D67F23F0364400B08B82 /* CustomModalAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomModalAlert.xib; sourceTree = "<group>"; };
 		B5992B4F23F0976E00E7DB89 /* AccessibilityFocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityFocusViewController.swift; sourceTree = "<group>"; };
 		B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityFocusViewController.xib; sourceTree = "<group>"; };
@@ -359,7 +359,7 @@
 				B5CD39C523EFF164009D2D1F /* BodyLabel.swift */,
 				B5C03DDA23F00498001D2C5C /* SubHeadLabel.swift */,
 				B5C03DD823F0045F001D2C5C /* Label.swift */,
-				B579D67B23F02AB900B08B82 /* Button.swift */,
+				B579D67B23F02AB900B08B82 /* A11yButton.swift */,
 				B5AF702C23F0721C002E190F /* OrderedTraversalView.swift */,
 				B5AF702E23F0726E002E190F /* OrderedTraversalView.xib */,
 				B5AF703023F07829002E190F /* UnorderedTraversalView.swift */,
@@ -552,7 +552,7 @@
 				B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */,
 				B5123BAF240291C90074BC38 /* HearingDevicesViewController.swift in Sources */,
 				B5CD39B923EF5F5D009D2D1F /* AccessibilityElementsViewController.swift in Sources */,
-				B579D67C23F02AB900B08B82 /* Button.swift in Sources */,
+				B579D67C23F02AB900B08B82 /* A11yButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
