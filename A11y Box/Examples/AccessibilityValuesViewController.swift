@@ -26,5 +26,4 @@ class AccessibilityValuesViewController: UIViewController {
         containerView.addSubview(swiftUIView.view)
         swiftUIView.didMove(toParent: self)
     }
-
 }

@@ -55,14 +55,12 @@ class GuidedAccessViewController: UIViewController {
 
     @objc
     func deleteChanged(_ notification: Notification) {
-        //swiftlint:disable:next force_cast
         let status = notification.object as! Bool
         deleteButton.isHidden = !status
     }
 
     @objc
     func settingsChanged(_ notification: Notification) {
-        //swiftlint:disable:next force_cast
         let status = notification.object as! Bool
         settingsButton.isHidden = !status
     }

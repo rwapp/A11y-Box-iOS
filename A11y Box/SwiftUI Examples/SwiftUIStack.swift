@@ -16,11 +16,11 @@ struct SwiftUIStack: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
 
-//            Listing 8-15.
+            // Listing 8-15.
             Text("Stacks in SwiftUI provide a simple way to make powerful semantic views by combining elements")
                 .font(.headline)
 
-//             Listing 6-23.
+            // Listing 6-23.
             VStack(alignment: .leading, spacing: 10) {
                 Button(action: {}) {
                     Text("⭐⭐⭐⭐")
@@ -36,11 +36,5 @@ struct SwiftUIStack: View {
             .accessibility(addTraits: .isButton)
             .accessibilityAction {  }
         }
-    }
-}
-
-struct SwiftUIStack_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIStack()
     }
 }
