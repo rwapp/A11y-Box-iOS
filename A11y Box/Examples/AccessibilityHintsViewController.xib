@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccessibilityHintsViewController" customModule="A11y_Box" customModuleProvider="target">
             <connections>
                 <outlet property="accessibilityHintElement" destination="fPU-RH-Q9x" id="Vm2-a2-0zR"/>
+                <outlet property="containerView" destination="U4a-cM-Bup" id="N4K-vd-daV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -38,16 +39,24 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4a-cM-Bup">
+                    <rect key="frame" x="0.0" y="163" width="414" height="679"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
             </subviews>
             <color key="backgroundColor" name="BackgroundColour"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ft7-9L-I8P" secondAttribute="trailing" constant="20" id="Cnu-JC-faH"/>
+                <constraint firstItem="U4a-cM-Bup" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QQJ-Va-co9"/>
+                <constraint firstItem="U4a-cM-Bup" firstAttribute="top" secondItem="jPj-5v-FLk" secondAttribute="bottom" constant="20" id="S28-uG-Ogr"/>
                 <constraint firstItem="Ft7-9L-I8P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="SiZ-Og-OgM"/>
                 <constraint firstItem="Ft7-9L-I8P" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="aox-au-whY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jPj-5v-FLk" secondAttribute="trailing" constant="20" id="hJE-n4-dEc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="U4a-cM-Bup" secondAttribute="bottom" constant="20" id="lvO-kZ-sav"/>
                 <constraint firstItem="fPU-RH-Q9x" firstAttribute="top" secondItem="Ft7-9L-I8P" secondAttribute="bottom" constant="8" id="nfc-c6-Ovd"/>
                 <constraint firstItem="jPj-5v-FLk" firstAttribute="top" secondItem="fPU-RH-Q9x" secondAttribute="bottom" constant="8" id="nua-dk-5kg"/>
                 <constraint firstItem="fPU-RH-Q9x" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="oBZ-za-L70"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="U4a-cM-Bup" secondAttribute="trailing" id="oYR-uz-npf"/>
                 <constraint firstAttribute="trailing" secondItem="fPU-RH-Q9x" secondAttribute="trailing" constant="20" id="qxN-MJ-Ma2"/>
                 <constraint firstItem="jPj-5v-FLk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="sav-6h-ESG"/>
             </constraints>

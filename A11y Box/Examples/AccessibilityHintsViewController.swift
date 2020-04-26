@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import SwiftUI
 
 class AccessibilityHintsViewController: UIViewController {
 
     @IBOutlet weak private var accessibilityHintElement: UILabel!
+    @IBOutlet weak private var containerView: UIView!
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         // Listing 6-7
         accessibilityHintElement.accessibilityHint = "EXAMPLE.HINTS.HINT".localized()
+
+        let swiftUIView = UIHostingController(rootView: SwiftUIHint())
+        addChild(swiftUIView)
+        swiftUIView.view.frame = containerView.bounds
+        containerView.addSubview(swiftUIView.view)
+        swiftUIView.didMove(toParent: self)
     }
 }
