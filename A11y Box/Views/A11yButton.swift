@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Button: UIButton {
+class A11yButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
 
