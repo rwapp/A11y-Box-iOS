@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import SwiftUI
 
 class AccessibilityLabelsViewController: UIViewController {
 
     @IBOutlet weak private var accessibilityLabelElement: UILabel!
+    @IBOutlet weak private var containerView: UIView!
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         // Listing 6-3
         accessibilityLabelElement.accessibilityLabel = "EXAMPLE.LABELS.ACCESSIBILITY_LABEL".localized()
+
+        let swiftUIView = UIHostingController(rootView: SwiftUILabel())
+        addChild(swiftUIView)
+        swiftUIView.view.frame = containerView.bounds
+        containerView.addSubview(swiftUIView.view)
+        swiftUIView.didMove(toParent: self)
     }
 }
