@@ -27,10 +27,15 @@
 		B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */; };
 		B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5186B5E23F9A5630045C03C /* SwitchViewController.swift */; };
 		B5186B6123F9A5630045C03C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5186B5F23F9A5630045C03C /* SwitchViewController.xib */; };
+		B541C5C52455A64A008E2E2E /* SwiftUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541C5C42455A64A008E2E2E /* SwiftUILabel.swift */; };
+		B541C5C92455AB47008E2E2E /* SwiftUIValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541C5C82455AB47008E2E2E /* SwiftUIValue.swift */; };
+		B541C5CB2455AF95008E2E2E /* SwiftUIHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541C5CA2455AF95008E2E2E /* SwiftUIHint.swift */; };
+		B541C5CD2455B093008E2E2E /* SwiftUIStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541C5CC2455B093008E2E2E /* SwiftUIStack.swift */; };
 		B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */; };
 		B579D67A23F029F200B08B82 /* AccessibilityViewIsModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */; };
 		B579D67C23F02AB900B08B82 /* A11yButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579D67B23F02AB900B08B82 /* A11yButton.swift */; };
 		B579D68023F0364400B08B82 /* CustomModalAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = B579D67F23F0364400B08B82 /* CustomModalAlert.xib */; };
+		B58B209F245598B200BE7EDD /* SwiftUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B209E245598B200BE7EDD /* SwiftUIElement.swift */; };
 		B5992B5123F0976E00E7DB89 /* AccessibilityFocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B4F23F0976E00E7DB89 /* AccessibilityFocusViewController.swift */; };
 		B5992B5223F0976E00E7DB89 /* AccessibilityFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */; };
 		B5992B5523F09ABE00E7DB89 /* GuidedAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992B5323F09ABE00E7DB89 /* GuidedAccessViewController.swift */; };
@@ -129,10 +134,15 @@
 		B5156ED82401F3FC005B1D1C /* DarkModeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DarkModeViewController.xib; sourceTree = "<group>"; };
 		B5186B5E23F9A5630045C03C /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		B5186B5F23F9A5630045C03C /* SwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
+		B541C5C42455A64A008E2E2E /* SwiftUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabel.swift; sourceTree = "<group>"; };
+		B541C5C82455AB47008E2E2E /* SwiftUIValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIValue.swift; sourceTree = "<group>"; };
+		B541C5CA2455AF95008E2E2E /* SwiftUIHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHint.swift; sourceTree = "<group>"; };
+		B541C5CC2455B093008E2E2E /* SwiftUIStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStack.swift; sourceTree = "<group>"; };
 		B579D67723F029F200B08B82 /* AccessibilityViewIsModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewIsModalViewController.swift; sourceTree = "<group>"; };
 		B579D67823F029F200B08B82 /* AccessibilityViewIsModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityViewIsModalViewController.xib; sourceTree = "<group>"; };
 		B579D67B23F02AB900B08B82 /* A11yButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11yButton.swift; sourceTree = "<group>"; };
 		B579D67F23F0364400B08B82 /* CustomModalAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomModalAlert.xib; sourceTree = "<group>"; };
+		B58B209E245598B200BE7EDD /* SwiftUIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIElement.swift; sourceTree = "<group>"; };
 		B5992B4F23F0976E00E7DB89 /* AccessibilityFocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityFocusViewController.swift; sourceTree = "<group>"; };
 		B5992B5023F0976E00E7DB89 /* AccessibilityFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessibilityFocusViewController.xib; sourceTree = "<group>"; };
 		B5992B5323F09ABE00E7DB89 /* GuidedAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedAccessViewController.swift; sourceTree = "<group>"; };
@@ -221,6 +231,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B58B209D2455986700BE7EDD /* SwiftUI Examples */ = {
+			isa = PBXGroup;
+			children = (
+				B58B209E245598B200BE7EDD /* SwiftUIElement.swift */,
+				B541C5C42455A64A008E2E2E /* SwiftUILabel.swift */,
+				B541C5C82455AB47008E2E2E /* SwiftUIValue.swift */,
+				B541C5CA2455AF95008E2E2E /* SwiftUIHint.swift */,
+				B541C5CC2455B093008E2E2E /* SwiftUIStack.swift */,
+			);
+			path = "SwiftUI Examples";
+			sourceTree = "<group>";
+		};
 		B5992B5723F0A23900E7DB89 /* Features */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +312,7 @@
 		B5CD399323EF5C36009D2D1F /* A11y Box */ = {
 			isa = PBXGroup;
 			children = (
+				B58B209D2455986700BE7EDD /* SwiftUI Examples */,
 				B5CD39C423EF6747009D2D1F /* Views */,
 				B5992B5723F0A23900E7DB89 /* Features */,
 				B5CD39BA23EF5F66009D2D1F /* Examples */,
@@ -508,6 +531,7 @@
 			files = (
 				B5CD39C623EFF164009D2D1F /* BodyLabel.swift in Sources */,
 				B5DA1E9023F996A400D45A61 /* ZoomViewController.swift in Sources */,
+				B58B209F245598B200BE7EDD /* SwiftUIElement.swift in Sources */,
 				B5CFBC4E23F9DBAC009627CA /* SmartInvertViewController.swift in Sources */,
 				B5123BAB24027EB20074BC38 /* UserInputLabelsViewController.swift in Sources */,
 				B5CCC39F23F9B3F9002BF065 /* DarkerColorsViewController.swift in Sources */,
@@ -517,6 +541,7 @@
 				B5E422B723F9AC08004871EE /* TransparencyViewController.swift in Sources */,
 				B5123BB7240295130074BC38 /* CaptionsViewController.swift in Sources */,
 				B5C03DCA23EFF8C6001D2C5C /* AccessibilityValuesViewController.swift in Sources */,
+				B541C5C52455A64A008E2E2E /* SwiftUILabel.swift in Sources */,
 				B579D67923F029F200B08B82 /* AccessibilityViewIsModalViewController.swift in Sources */,
 				B5992B5B23F0A36E00E7DB89 /* FeaturesDataSource.swift in Sources */,
 				B5C03DD923F0045F001D2C5C /* Label.swift in Sources */,
@@ -528,9 +553,12 @@
 				B5C03DE423F02824001D2C5C /* AccessibilityHiddenViewController.swift in Sources */,
 				B5AF702A23F071A6002E190F /* TraversalOrderViewController.swift in Sources */,
 				B5CFBC5223F9E044009627CA /* GrayscaleViewController.swift in Sources */,
+				B541C5CB2455AF95008E2E2E /* SwiftUIHint.swift in Sources */,
+				B541C5CD2455B093008E2E2E /* SwiftUIStack.swift in Sources */,
 				B5156ED92401F3FC005B1D1C /* DarkModeViewController.swift in Sources */,
 				B5C03DC723EFF781001D2C5C /* SceneDelegate.swift in Sources */,
 				B5C03DDF23F01B40001D2C5C /* String+Localization.swift in Sources */,
+				B541C5C92455AB47008E2E2E /* SwiftUIValue.swift in Sources */,
 				B5123B9D240277100074BC38 /* ShakeToUndoViewController.swift in Sources */,
 				B5C03DD223EFFB90001D2C5C /* AccessibilityTraitsViewController.swift in Sources */,
 				B5992B5E23F0A93500E7DB89 /* VoiceOverViewController.swift in Sources */,
