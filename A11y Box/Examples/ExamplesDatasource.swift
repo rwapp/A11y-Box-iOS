@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 enum ExamplesDatasource: Int, CaseIterable {
 
@@ -24,6 +25,7 @@ enum ExamplesDatasource: Int, CaseIterable {
     case accessibilityFocus
     case navigation
     case inputLabels
+    case swiftUIStack
 
     var identifier: String {
         switch self {
@@ -53,6 +55,8 @@ enum ExamplesDatasource: Int, CaseIterable {
             return "navigation"
         case .inputLabels:
             return "inputLabels"
+        case .swiftUIStack:
+            return "swiftUIStack"
         }
     }
 
@@ -86,6 +90,8 @@ enum ExamplesDatasource: Int, CaseIterable {
             viewController = NavigationStyleViewController()
         case .inputLabels:
             viewController = UserInputLabelsViewController()
+        case .swiftUIStack:
+            viewController = UIHostingController(rootView: SwiftUIStack())
         }
 
         viewController.title = title()
