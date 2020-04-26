@@ -10,7 +10,7 @@ import UIKit
 
 class AccessibilityFocusViewController: UIViewController {}
 
-class FocusButton: Button {
+class FocusButton: A11yButton {
 
     // Listing 6-21
     override func accessibilityElementDidBecomeFocused() {
