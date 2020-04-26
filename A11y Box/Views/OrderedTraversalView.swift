@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class OrderedTraversalView: UIView {
 
     @IBOutlet weak var header1: UILabel!
@@ -36,7 +35,6 @@ class OrderedTraversalView: UIView {
 
         let view = UINib(nibName: "OrderedTraversalView",
                          bundle: Bundle.main).instantiate(withOwner: self,
-                                                          //swiftlint:disable:next force_cast
                             options: nil).first as! UIView
 
         view.frame = bounds

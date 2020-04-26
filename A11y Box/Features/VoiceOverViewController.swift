@@ -138,5 +138,4 @@ class VoiceOverViewController: UIViewController {
         sleep(1)
         UIAccessibility.post(notification: .announcement, argument: announcement)
     }
-
 }

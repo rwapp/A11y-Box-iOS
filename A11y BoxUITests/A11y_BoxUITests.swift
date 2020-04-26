@@ -8,7 +8,6 @@
 
 import XCTest
 
-//swiftlint:disable:next type_name
 class Developing_Inclusive_Mobile_AppsUITests: XCTestCase {
 
     let app = XCUIApplication()

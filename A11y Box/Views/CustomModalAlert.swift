@@ -23,7 +23,6 @@ class CustomModalAlert: UIView {
 
         let view = UINib(nibName: "CustomModalAlert",
             bundle: Bundle.main).instantiate(withOwner: self,
-                                             //swiftlint:disable:next force_cast
                                              options: nil).first as! UIView
 
         view.frame = bounds

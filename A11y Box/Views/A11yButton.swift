@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Button: UIButton {
+class A11yButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
 
@@ -53,12 +53,12 @@ class Button: UIButton {
         addConstraint(labelPaddingTop)
 
         let labelPaddingLeft = NSLayoutConstraint(item: titleLabel as Any,
-                                                    attribute: .left,
-                                                    relatedBy: .equal,
-                                                    toItem: self,
-                                                    attribute: .left,
-                                                    multiplier: 1,
-                                                    constant: 4)
+                                                  attribute: .left,
+                                                  relatedBy: .equal,
+                                                  toItem: self,
+                                                  attribute: .left,
+                                                  multiplier: 1,
+                                                  constant: 4)
         addConstraint(labelPaddingLeft)
 
         let heightConstraint = NSLayoutConstraint(item: self,
