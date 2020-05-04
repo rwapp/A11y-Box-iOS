@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -65,12 +65,12 @@
                 <constraint firstItem="PIx-SY-fX0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="46O-Uz-iBt"/>
                 <constraint firstItem="PIx-SY-fX0" firstAttribute="top" secondItem="W34-At-SYK" secondAttribute="bottom" constant="8" id="8io-GV-rK2"/>
                 <constraint firstItem="we6-ej-kPf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="A0E-0U-c1X"/>
+                <constraint firstItem="kgc-uN-6sS" firstAttribute="centerY" secondItem="mfG-Pe-4vq" secondAttribute="centerY" id="AZf-99-m6S"/>
                 <constraint firstItem="W34-At-SYK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CPl-rV-17v"/>
                 <constraint firstAttribute="bottom" secondItem="PIx-SY-fX0" secondAttribute="bottom" id="Kgf-ra-uZw"/>
                 <constraint firstAttribute="bottom" secondItem="we6-ej-kPf" secondAttribute="bottom" id="MOq-IT-APR"/>
                 <constraint firstItem="mfG-Pe-4vq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OKn-P8-SXQ"/>
                 <constraint firstAttribute="trailing" secondItem="Xht-1d-4Vt" secondAttribute="trailing" id="Qis-iQ-4WS"/>
-                <constraint firstItem="kgc-uN-6sS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mfG-Pe-4vq" secondAttribute="trailing" constant="8" id="TQe-Tq-tZ1"/>
                 <constraint firstItem="we6-ej-kPf" firstAttribute="top" secondItem="mfG-Pe-4vq" secondAttribute="bottom" constant="8" id="YJl-XR-xD6"/>
                 <constraint firstItem="W34-At-SYK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b5k-cw-1RW"/>
                 <constraint firstItem="Xht-1d-4Vt" firstAttribute="top" secondItem="kgc-uN-6sS" secondAttribute="bottom" constant="8" id="i8x-y0-rRS"/>

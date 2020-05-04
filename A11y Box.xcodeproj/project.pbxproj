@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B482C4F240AC176003A3320 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B482C4E240AC176003A3320 /* TileView.swift */; };
+		5B482C51240AC2A3003A3320 /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B482C50240AC2A3003A3320 /* TileView.xib */; };
+		5BAA6125240AC08F00F90223 /* ComponentTraversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA6124240AC08F00F90223 /* ComponentTraversalView.swift */; };
+		5BAA6127240AC0A700F90223 /* ComponentTraversalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAA6126240AC0A700F90223 /* ComponentTraversalView.xib */; };
 		B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */; };
 		B5123B9A2402718C0074BC38 /* AssistiveTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */; };
 		B5123B9D240277100074BC38 /* ShakeToUndoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5123B9B240277100074BC38 /* ShakeToUndoViewController.swift */; };
@@ -113,6 +117,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B482C4E240AC176003A3320 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		5B482C50240AC2A3003A3320 /* TileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileView.xib; sourceTree = "<group>"; };
+		5BAA6124240AC08F00F90223 /* ComponentTraversalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentTraversalView.swift; sourceTree = "<group>"; };
+		5BAA6126240AC0A700F90223 /* ComponentTraversalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentTraversalView.xib; sourceTree = "<group>"; };
 		B5123B972402718C0074BC38 /* AssistiveTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistiveTouchViewController.swift; sourceTree = "<group>"; };
 		B5123B982402718C0074BC38 /* AssistiveTouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssistiveTouchViewController.xib; sourceTree = "<group>"; };
 		B5123B9B240277100074BC38 /* ShakeToUndoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeToUndoViewController.swift; sourceTree = "<group>"; };
@@ -387,6 +395,10 @@
 				B5AF702E23F0726E002E190F /* OrderedTraversalView.xib */,
 				B5AF703023F07829002E190F /* UnorderedTraversalView.swift */,
 				B5AF703123F07829002E190F /* UnorderedTraversalView.xib */,
+				5BAA6124240AC08F00F90223 /* ComponentTraversalView.swift */,
+				5BAA6126240AC0A700F90223 /* ComponentTraversalView.xib */,
+				5B482C4E240AC176003A3320 /* TileView.swift */,
+				5B482C50240AC2A3003A3320 /* TileView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -490,6 +502,7 @@
 				B5BA01342401E345008C87F6 /* SpokenContentViewController.xib in Resources */,
 				B5CFBC4F23F9DBAC009627CA /* SmartInvertViewController.xib in Resources */,
 				B5992B5F23F0A93500E7DB89 /* VoiceOverViewController.xib in Resources */,
+				5B482C51240AC2A3003A3320 /* TileView.xib in Resources */,
 				B5992B5623F09ABE00E7DB89 /* GuidedAccessViewController.xib in Resources */,
 				B5156EDA2401F3FC005B1D1C /* DarkModeViewController.xib in Resources */,
 				B5123B9E240277100074BC38 /* ShakeToUndoViewController.xib in Resources */,
@@ -502,6 +515,7 @@
 				B5123BB8240295130074BC38 /* CaptionsViewController.xib in Resources */,
 				B5123BB4240293A50074BC38 /* MonoAudioViewController.xib in Resources */,
 				B5AF704123F092E7002E190F /* CustomActionViewController.xib in Resources */,
+				5BAA6127240AC0A700F90223 /* ComponentTraversalView.xib in Resources */,
 				B5123BA824027BFD0074BC38 /* NavigationStyleViewController.xib in Resources */,
 				B5CD39A023EF5C3C009D2D1F /* Assets.xcassets in Resources */,
 				B5CCC3A023F9B3F9002BF065 /* DarkerColorsViewController.xib in Resources */,
@@ -546,6 +560,7 @@
 				B5992B5B23F0A36E00E7DB89 /* FeaturesDataSource.swift in Sources */,
 				B5C03DD923F0045F001D2C5C /* Label.swift in Sources */,
 				B5C03DCE23EFFA27001D2C5C /* AccessibilityHintsViewController.swift in Sources */,
+				5BAA6125240AC08F00F90223 /* ComponentTraversalView.swift in Sources */,
 				B5992B5123F0976E00E7DB89 /* AccessibilityFocusViewController.swift in Sources */,
 				B5992B5523F09ABE00E7DB89 /* GuidedAccessViewController.swift in Sources */,
 				B5CCC3A323F9C13E002BF065 /* DifferentiateColorsViewController.swift in Sources */,
@@ -576,6 +591,7 @@
 				B5C03DDB23F00498001D2C5C /* SubHeadLabel.swift in Sources */,
 				B5123B992402718C0074BC38 /* AssistiveTouchViewController.swift in Sources */,
 				B5CD39BF23EF62A4009D2D1F /* ExamplesDatasource.swift in Sources */,
+				5B482C4F240AC176003A3320 /* TileView.swift in Sources */,
 				B5992B5923F0A31F00E7DB89 /* FeaturesViewController.swift in Sources */,
 				B5186B6023F9A5630045C03C /* SwitchViewController.swift in Sources */,
 				B5123BAF240291C90074BC38 /* HearingDevicesViewController.swift in Sources */,

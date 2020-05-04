@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TraversalOrderViewController" customModule="A11y_Box" customModuleProvider="target">
             <connections>
+                <outlet property="componentTraversal" destination="uny-c8-GWI" id="URr-9G-PHW"/>
                 <outlet property="orderedTraversal" destination="nHx-dD-7cc" id="oDQ-g5-KzD"/>
                 <outlet property="unorderedTraversal" destination="p4x-gW-1dj" id="vFK-bf-H0X"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -20,60 +21,87 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p4x-gW-1dj" customClass="UnorderedTraversalView" customModule="A11y_Box" customModuleProvider="target">
-                    <rect key="frame" x="20" y="122" width="374" height="50"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    <constraints>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="aHY-hL-dHP"/>
-                    </constraints>
-                </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traversal order sets the order assitive technology accesses elements." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOK-j0-FN0" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traversal order sets the order which assistive technology accesses the elements." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOK-j0-FN0" customClass="SubHeadLabel" customModule="A11y_Box" customModuleProvider="target">
                     <rect key="frame" x="20" y="64" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view is unordered. Navigate it with VoiceOver or Switch Control." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zf-hl-Pzg" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigate views with VoiceOver or Switch Control." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zf-hl-Pzg" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
                     <rect key="frame" x="20" y="93" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This view is ordered." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-yb-glZ" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
-                    <rect key="frame" x="20" y="180" width="374" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view is unordered." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1T-lb-lvV" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="134" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHx-dD-7cc" customClass="OrderedTraversalView" customModule="A11y_Box" customModuleProvider="target">
-                    <rect key="frame" x="20" y="317" width="374" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p4x-gW-1dj" customClass="UnorderedTraversalView" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="163" width="374" height="70"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SNg-it-Mgc"/>
+                        <constraint firstAttribute="height" constant="70" id="aHY-hL-dHP"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view is ordered." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-yb-glZ" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="253" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHx-dD-7cc" customClass="OrderedTraversalView" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="290" width="374" height="70"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="SNg-it-Mgc"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view has components" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROz-kP-nFW" customClass="BodyLabel" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="380" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uny-c8-GWI" customClass="ComponentTraversalView" customModule="A11y_Box" customModuleProvider="target">
+                    <rect key="frame" x="20" y="417" width="374" height="70"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="58u-lg-T3W"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" name="BackgroundColour"/>
             <constraints>
                 <constraint firstItem="7Zf-hl-Pzg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="03h-Fi-1iU"/>
-                <constraint firstItem="p4x-gW-1dj" firstAttribute="top" secondItem="7Zf-hl-Pzg" secondAttribute="bottom" constant="16" id="AMW-j3-lwW"/>
+                <constraint firstItem="p4x-gW-1dj" firstAttribute="top" secondItem="g1T-lb-lvV" secondAttribute="bottom" constant="8" id="5WZ-lk-5nx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="txQ-yb-glZ" secondAttribute="trailing" constant="20" id="GPQ-ob-NU4"/>
-                <constraint firstAttribute="trailing" secondItem="7Zf-hl-Pzg" secondAttribute="trailing" constant="20" id="JrW-r7-wv6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="g1T-lb-lvV" secondAttribute="trailing" constant="20" id="HGA-jQ-bcV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7Zf-hl-Pzg" secondAttribute="trailing" constant="20" id="JrW-r7-wv6"/>
                 <constraint firstItem="qOK-j0-FN0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="MqY-T0-LnT"/>
                 <constraint firstItem="qOK-j0-FN0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Ndh-S1-3TU"/>
+                <constraint firstItem="ROz-kP-nFW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Wph-7a-mOy"/>
                 <constraint firstItem="nHx-dD-7cc" firstAttribute="top" secondItem="txQ-yb-glZ" secondAttribute="bottom" constant="16" id="YtW-Xm-OSc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qOK-j0-FN0" secondAttribute="trailing" constant="20" id="aHi-1A-b0w"/>
-                <constraint firstItem="7Zf-hl-Pzg" firstAttribute="top" secondItem="qOK-j0-FN0" secondAttribute="bottom" constant="8" id="aYx-Qs-VO7"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nHx-dD-7cc" secondAttribute="bottom" constant="20" id="kiu-x0-Jaw"/>
+                <constraint firstItem="g1T-lb-lvV" firstAttribute="top" secondItem="7Zf-hl-Pzg" secondAttribute="bottom" constant="20" id="aWV-Hz-BES"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uny-c8-GWI" secondAttribute="trailing" constant="20" id="azP-AA-KtF"/>
+                <constraint firstItem="7Zf-hl-Pzg" firstAttribute="top" secondItem="qOK-j0-FN0" secondAttribute="bottom" constant="8" id="hYz-8Z-6iC"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nHx-dD-7cc" secondAttribute="trailing" constant="20" id="lJz-vM-Uvh"/>
                 <constraint firstItem="nHx-dD-7cc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="mNI-fr-FFq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ROz-kP-nFW" secondAttribute="trailing" constant="20" id="nas-GY-niR"/>
                 <constraint firstItem="p4x-gW-1dj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="oyb-rp-vm1"/>
+                <constraint firstItem="uny-c8-GWI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="pJa-rh-cCb"/>
+                <constraint firstItem="g1T-lb-lvV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="sHr-2H-J67"/>
+                <constraint firstItem="ROz-kP-nFW" firstAttribute="top" secondItem="nHx-dD-7cc" secondAttribute="bottom" constant="20" id="t7O-Lo-5bM"/>
+                <constraint firstItem="uny-c8-GWI" firstAttribute="top" secondItem="ROz-kP-nFW" secondAttribute="bottom" constant="16" id="v6D-3e-4Q9"/>
                 <constraint firstItem="txQ-yb-glZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="w1R-jr-Mpf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="p4x-gW-1dj" secondAttribute="trailing" constant="20" id="wea-Nt-kbF"/>
                 <constraint firstItem="txQ-yb-glZ" firstAttribute="top" secondItem="p4x-gW-1dj" secondAttribute="bottom" constant="20" id="zlR-If-5gh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="132" y="127"/>
+            <point key="canvasLocation" x="131.8840579710145" y="126.5625"/>
         </view>
     </objects>
     <resources>
